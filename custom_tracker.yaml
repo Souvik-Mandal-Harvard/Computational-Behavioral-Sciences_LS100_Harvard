@@ -1,0 +1,14 @@
+# --- Complete BoT-SORT Tracker for Biomechanics Overlaps ---
+tracker_type: botsort       # Tracker type
+track_high_thresh: 0.3      # Threshold for the first association
+track_low_thresh: 0.05      # Threshold for the second association
+new_track_thresh: 0.4       # Threshold for init new track
+track_buffer: 120           # KEEP ALIVE: Keep ID for 120 frames if lost in an overlap
+match_thresh: 0.9           # MATCHING: High threshold to prevent "jumping" to a new person
+fuse_score: True            # THIS FIXES THE ERROR: Fuses confidence with spatial distance
+
+# BoT-SORT specific settings
+gmc_method: sparseOptFlow   # Global motion compensation method
+proximity_thresh: 0.5       # Threshold for spatial distance
+appearance_thresh: 0.25     # Lowered because costumes are identical
+with_reid: False            # Disable Re-ID to save memory
