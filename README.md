@@ -10,5 +10,5 @@ Welcome to the comprehensive repository for **LS100**. This collection contains 
 | **Languages** | Python 3.10+ |
 | **Data Processing** | Pandas, NumPy, Scipy |
 | **Visualization** | Matplotlib, Seaborn, Plotly |
-| **ML Frameworks** | Scikit-Learn, TensorFlow, PyTorch |
+| **ML Frameworks** | Scikit-Learn, PyTorch |
 | **Environment** | Jupyter Notebook, Codespaces, Google Colab, Anaconda |
