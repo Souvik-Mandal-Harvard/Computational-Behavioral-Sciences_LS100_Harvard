@@ -3,7 +3,7 @@
 
 Welcome to the open repository for **LS100**, a 4-credit, research-based course at Harvard University.
 
-This repository is the student-facing companion to the lectures delivered during the course. However, the materials in this repo is self-sufficient to take you from identifying a research question to framing testable hypotheses, collecting and analyzing data in Python, and communicating scientific findings clearly.
+This repository is the student-facing companion to the lectures delivered during the course. However, the materials in this repo are self-sufficient to take you from identifying a research question to framing testable hypotheses, collecting and analyzing data in Python, and communicating scientific findings clearly.
 
 The course focuses on quantifying behavior in humans and other animals from movement, vocalizations, and other digital signals using data science and AI/ML methods.
 
