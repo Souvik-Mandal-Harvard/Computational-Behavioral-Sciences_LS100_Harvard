@@ -1,5 +1,5 @@
 # LS100: Computational Behavioral Sciences
-### Foundations of Data Science and Applied AI/ML for Behavioral Sciences
+### Foundations of Data Science and Applied AI/ML for Conducting Research in Behavioral Sciences
 
 Welcome to the repository for **LS100**, a 4-credit, research-based course "**Computational Behavioral Sciences**" that I teach at Harvard University. The course focuses on learning to conduct research that requires quantifying behavior in humans and other animals using automation, data science, and AI/ML methods.
 
