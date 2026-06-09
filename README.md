@@ -1,11 +1,9 @@
 # LS100: Computational Behavioral Sciences
-### Foundations of Data Science and Applied AI/ML for Behavioral Sciences
+### Foundations of Data Science and Applied AI/ML for Conducting Research in Behavioral Sciences
 
-Welcome to the open repository for **LS100**, a 4-credit, research-based course at Harvard University.
+Welcome to the repository for **LS100**, a 4-credit, research-based course "**Computational Behavioral Sciences**" that I teach at Harvard University. The course focuses on learning to conduct research that requires quantifying behavior in humans and other animals using automation, data science, and AI/ML methods.
 
-This repository is the student-facing companion to the leactures delivered during the course. Howeverm the materials in this repo is self-sufficient to take you from identifying a research question to framing testable hypotheses, collecting and analyzing data in Python, and communicating scientific findings clearly.
-
-The course focuses on quantifying behavior in humans and other animals from movement, vocalizations, and other digital signals using data science and AI/ML methods.
+This repository is the student-facing companion to the lectures I deliver during the course. However, I designed the materials in this repo to be self-sufficient, guiding you from **identifying a research question to framing testable hypotheses, collecting and analyzing data in Python, and clearly communicating scientific findings**.
 
 All content is open for non‑commercial use; feel free to learn from it or teach with it.
 
@@ -16,9 +14,10 @@ All content is open for non‑commercial use; feel free to learn from it or teac
 LS100 follows the full research cycle. By the end of the course, you will be able to:
 
 - Formulate behavior-related questions as testable scientific hypotheses.
-- Collect and prepare video, audio, and other digital data for analysis.
+- Collect and prepare video, audio, and other digital data.
 - Use and fine-tune open-source AI/ML models (for example, pose estimation, object tracking, and audio embeddings) to extract behavioral metrics.
-- Apply data science and statistical analysis in Python to validate results.
+- Apply data science and statistical analysis in Python to analyze and validate results.
+- Use classical ML methods, including supervised and unsupervised learning.
 - Communicate findings through visualizations, written reports, and oral presentations.
 - Use large language models responsibly and effectively in research workflows.
 
@@ -31,6 +30,18 @@ No prior programming experience is required. Module 00 starts from zero.
 - Students enrolled in LS100.
 - Learners interested in computational approaches to behavior.
 - Instructors seeking non-commercial teaching resources in behavioral data science.
+
+---
+
+## Getting started
+There are primarily two types of materials: Reading guides and Python Jupyter notebooks. The materials are to get you started with your research journey, but do not necessarily serve as an end-to-end research project. Learners need to create their own code/ reports/ materials to conduct their own research. To start:
+
+1. Open **Reading-Texts -> Research Guide 01** to understand how to frame research plans and research proposals.
+2. Next, read the **Computation Guide 01** and set up your Python environment.
+3. If you are new to Python Programming, start with **Module 00, Notebook 01**. Follow notebooks in numeric order.
+4. Depending on your data type, choose either the `LS100_01A_Video-data` or the `LS100_01B_Audio-data` folder, and follow the notebooks in numeric order.
+5. Once you have data ready to analyze, check the notebooks in the `LS100_02_Data-Science_Stats` folder.
+6. The reading guide `Art-of-Communicating-Science` in the "Reading-Texts" folder gives a comprehensive idea of presenting your findings effectively.
 
 ---
 
@@ -78,9 +89,9 @@ An end‑to‑end pipeline that turns raw video into quantified, classifiable be
 | 01 | Video Processing - Video Chunker | Splitting a video into fixed-frame-count chunks |
 | 02 | Pose Estimation - MediaPipe | Extracting body keypoints from video with MediaPipe |
 | 02 | Pose Estimation - YOLO | Pose estimation for biomechanics applications with YOLO |
-| 02 | Pose Estimation - YOLOv8 GPU (Colab) | GPU-based keypoint extraction for single files and batches |
-| 02 | Training a Custom YOLO Model | Training a custom keypoint or tracking model (Label Studio to training pipeline) |
-| 03 | Extracting Joint Angles | Computing joint angles from MediaPipe and YOLO landmarks |
+| 02 | Pose Estimation - YOLO GPU (Colab) | GPU-based keypoint extraction for single files and batches |
+| 02 | Training a Custom YOLO Model | Training a model to track custom keypoints or objects (Label Studio to training pipeline) |
+| 03 | Extracting Joint Angles | Computing joint angles from MediaPipe and keypoint landmarks |
 | 04 | Deriving Indices from Angles | Converting angle time series into biomechanical indices |
 | 05A / 05B | Sequence-Based Classification | Preparing pose sequences and training behavior classification models |
 
@@ -114,13 +125,12 @@ From the physics of digital sound to AI-assisted feature extraction and clusteri
 
 Written companions to the notebooks:
 
+- **Document 00 - Module Description** (course overview)
+- **Document 01 - Curriculum** (14-week timeline)
 - **Computation Guide 01 - Getting Started with Python** (installation, environments, notebooks)
 - **Computation Guide 02 - Essential Python Terminologies and Concepts**
 - **Research Guide 01 - Writing Research Plans and Proposals**
 - **Research Guide 02 - The Art of Communicating Science**
-- **Document 00 - Module Description** (course overview)
-- **Document 01 - Curriculum** (14-week timeline)
-- **Introduction to Digital Audio** (audio module companion)
 
 ---
 
@@ -178,14 +188,6 @@ You are encouraged to design your own question. Common directions include:
 
 ---
 
-## Getting started
-
-1. Open **Reading-Texts -> Computation Guide 01** and set up your Python environment.
-2. Start with **Module 00, Notebook 01**.
-3. Follow notebooks in numeric order.
-4. For GPU pose-estimation notebooks in Module 01A, use Google Colab.
-
----
 
 ## License and use
 
