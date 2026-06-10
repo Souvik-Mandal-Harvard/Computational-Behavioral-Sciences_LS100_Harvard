@@ -3,9 +3,9 @@
 
 Welcome to the repository for **LS100**, a 4-credit, research-based course "**Computational Behavioral Sciences**" that I teach at Harvard University. The course focuses on learning to conduct research that requires quantifying behavior in humans and other animals using automation, data science, and AI/ML methods.
 
-This repository is the student-facing companion to the lectures I deliver during the course. However, I designed the materials in this repo to be self-sufficient, guiding you from **identifying a research question to framing testable hypotheses, collecting and analyzing data in Python, and clearly communicating scientific findings**.
+This repository is the student-facing companion to the lectures I deliver during the course. However, I designed the materials in this repo to be self-sufficient, guiding you from **identifying a research question to framing testable hypotheses, using Python programming for collecting, processing, and analyzing data, and effectively communicating scientific findings**.
 
-All content is open for non‑commercial use; feel free to learn from it or teach with it.
+All content in this repo is open for non‑commercial use; feel free to learn from it or teach with it.
 
 ---
 
@@ -14,11 +14,11 @@ All content is open for non‑commercial use; feel free to learn from it or teac
 LS100 follows the full research cycle. By the end of the course, you will be able to:
 
 - Formulate behavior-related questions as testable scientific hypotheses.
-- Collect and prepare video, audio, and other digital data.
+- Collect and process video, audio, and other digital data.
 - Use and fine-tune open-source AI/ML models (for example, pose estimation, object tracking, and audio embeddings) to extract behavioral metrics.
 - Apply data science and statistical analysis in Python to analyze and validate results.
 - Use classical ML methods, including supervised and unsupervised learning.
-- Communicate findings through visualizations, written reports, and oral presentations.
+- Communicate findings through visualizations, oral presentations and written reports.
 - Use large language models responsibly and effectively in research workflows.
 
 No prior programming experience is required. Module 00 starts from zero.
