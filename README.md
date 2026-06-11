@@ -16,20 +16,20 @@ LS100 follows the full research cycle. By the end of the course, you will be abl
 - Formulate behavior-related questions as testable scientific hypotheses.
 - Collect and process video, audio, and other digital data.
 - Use and fine-tune open-source AI/ML models (for example, pose estimation, object tracking, and audio embeddings) to extract behavioral metrics.
-- Apply data science and statistical analysis in Python to analyze and validate results.
-- Use classical ML methods, including supervised and unsupervised learning.
+- Apply statistical analyses to analyze and validate results.
+- Train classical ML models, both supervised and unsupervised, to make predictions on new data.
 - Communicate findings through visualizations, oral presentations and written reports.
 - Use large language models responsibly and effectively in research workflows.
 
-No prior programming experience is required. Module 00 starts from zero.
+No prior programming experience is required. Module `LS100_00_Python-Fundamentals` is meant for learners with zero experience with Python programming.
 
 ---
 
 ## Who this repository is for
 
-- Students enrolled in LS100.
-- Learners interested in computational approaches to behavior.
-- Instructors seeking non-commercial teaching resources in behavioral data science.
+- Students enrolled in LS100 and learners interested in using computation to make sense of behavior.
+- Learners seeking a data-backed understanding of human or animal movement and vocalization, or of behavioral data drawn from sources such as health portals and web services.
+- Instructors seeking non-commercial teaching resources in computational and data science-based approach in ethology, behavioral sciences.
 
 ---
 
