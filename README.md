@@ -36,12 +36,12 @@ No prior programming experience is required. Module `LS100_00_Python-Fundamental
 ## Getting started
 There are primarily two types of materials: Reading guides and Python Jupyter notebooks. The materials are to get you started with your research journey, but do not necessarily serve as an end-to-end research project. Learners need to create their own code/ reports/ materials to conduct their own research. To start:
 
-1. Open **Reading-Texts -> Research Guide 01** to understand how to frame research plans and research proposals.
+1. Open **LS100_Guides-and-Readings -> Research Guide 01** to understand how to frame research plans and research proposals.
 2. Next, read the **Computation Guide 01** and set up your Python environment.
 3. If you are new to Python Programming, start with **Module 00, Notebook 01**. Follow notebooks in numeric order.
 4. Depending on your data type, choose either the `LS100_01A_Video-data` or the `LS100_01B_Audio-data` folder, and follow the notebooks in numeric order.
 5. Once you have data ready to analyze, check the notebooks in the `LS100_02_Data-Science_Stats` folder.
-6. The reading guide `Art-of-Communicating-Science` in the "Reading-Texts" folder gives a comprehensive idea of presenting your findings effectively.
+6. The reading guide `Art-of-Communicating-Science` in the "LS100_Guides-and-Readings" folder gives a comprehensive idea of presenting your findings effectively.
 
 ---
 
@@ -53,7 +53,7 @@ Computational-Behavioral-Sciences_LS100_Harvard/
 ├── LS100_01A_Video-data/           # Video → pose → kinematics → behavior classification
 ├── LS100_01B_Audio-Data/           # Digital audio → features → clustering
 ├── LS100_02_Data-Science_Stats/    # Statistics and data-wrangling helpers
-├── Reading-Texts/                  # Written guides (Python, research, communication)
+├── LS100_Guides-and-Readings/                  # Written guides (Python, research, communication)
 ├── LS100_Document-00_Module-Description_Computational-Behavior-Science_LastUpdated-20250529.pdf
 ├── LICENSE
 └── README.md
@@ -121,7 +121,7 @@ From the physics of digital sound to AI-assisted feature extraction and clusteri
 
 ---
 
-## Reading-Texts
+## LS100_Guides-and-Readings
 
 Written companions to the notebooks:
 
@@ -140,16 +140,16 @@ Written companions to the notebooks:
 2. **Choose your data modality**: Module 01A (video/movement), Module 01B (audio/vocalization), or both.
 3. **Quantify and model behavior** using the video/audio pipelines.
 4. **Use Module 02** to analyze outcomes with statistical methods.
-5. **Read the guides in Reading-Texts** to strengthen research design and scientific communication.
+5. **Read the guides in LS100_Guides-and-Readings** to strengthen research design and scientific communication.
 
 ---
 
 ## Example project tracks
 
-You are encouraged to design your own question. Common directions include:
+You are encouraged to design your own question. Common directions include exploring patterns in some data of interest supported with:
 
-- **Movement analytics** for sports, dance, and rehabilitation: pose tracking to quantify posture, efficiency, and injury risk.
-- **Vocal or instrument learning**: extracting audio features (for example, pitch stability and timing) and tracking progress over time.
+- **Movement Analytics** for sports, dance, and rehabilitation: pose tracking to quantify posture, efficiency, and injury risk.
+- **Vocal or instrument learning**: extracting audio features (for example, pitch stability and timing), tracking progress over time, designing soundscape wellness, music therapy, etc.
 - **Behavior prediction from video**: extracting poses, classifying behaviors, and forecasting behavior in novel videos.
 
 ---
@@ -182,8 +182,8 @@ You are encouraged to design your own question. Common directions include:
 | **Visualization** | Matplotlib, seaborn, Plotly |
 | **Computer vision** | OpenCV, MediaPipe, Ultralytics (YOLO) |
 | **Audio** | librosa, CREPE, audio embedding models |
+| **Statistics** | statsmodels |
 | **Machine learning** | scikit-learn, PyTorch, HDBSCAN, UMAP |
-| **Statistics** | statsmodels (mixed-effects models) |
 | **Environment** | Jupyter Notebook, Google Colab, Anaconda, GitHub Codespaces |
 
 ---
