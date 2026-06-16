@@ -125,12 +125,11 @@ From the physics of digital sound to AI-assisted feature extraction and clusteri
 
 Written companions to the notebooks:
 
-- **Document 00 - Module Description** (course overview)
-- **Document 01 - Curriculum** (14-week timeline)
 - **Computation Guide 01 - Getting Started with Python** (installation, environments, notebooks)
 - **Computation Guide 02 - Essential Python Terminologies and Concepts**
 - **Research Guide 01 - Writing Research Plans and Proposals**
 - **Research Guide 02 - The Art of Communicating Science**
+- **Career Guide - Careers in the Data Landscape**
 
 ---
 
