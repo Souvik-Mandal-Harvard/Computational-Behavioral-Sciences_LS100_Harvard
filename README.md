@@ -53,7 +53,7 @@ Computational-Behavioral-Sciences_LS100_Harvard/
 ├── LS100_01A_Video-data/           # Video → pose → kinematics → behavior classification
 ├── LS100_01B_Audio-Data/           # Digital audio → features → clustering
 ├── LS100_02_Data-Science_Stats/    # Statistics and data-wrangling helpers
-├── LS100_Guides-and-Readings/                  # Written guides (Python, research, communication)
+├── LS100_Guides-and-Readings/      # Written guides (Python, research, communication, Careers in data)
 ├── LS100_Document-00_Module-Description_Computational-Behavior-Science_LastUpdated-20250529.pdf
 ├── LICENSE
 └── README.md
