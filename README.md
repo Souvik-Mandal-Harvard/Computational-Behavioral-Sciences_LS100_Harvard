@@ -21,7 +21,7 @@ LS100 follows the full research cycle. By the end of the course, you will be abl
 - Communicate findings through visualizations, oral presentations and written reports.
 - Use large language models responsibly and effectively in research workflows.
 
-No prior programming experience is required. Module `LS100_00_Python-Fundamentals` is meant for learners with zero experience with Python programming.
+No prior programming experience is required. Module `LS100_00B_Python-Fundamentals` is meant for learners with zero experience with Python programming.
 
 ---
 
@@ -34,14 +34,14 @@ No prior programming experience is required. Module `LS100_00_Python-Fundamental
 ---
 
 ## Getting started
-There are primarily two types of materials: Reading guides and Python Jupyter notebooks. The materials are to get you started with your research journey, but do not necessarily serve as an end-to-end research project. Learners need to create their own code/ reports/ materials to conduct their own research. To start:
+There are primarily two types of materials: reading guides (PDFs) and Python Jupyter notebooks. The materials are to get you started with your research journey, but do not necessarily serve as an end-to-end research project. Learners need to create their own code/ reports/ materials to conduct their own research. To start:
 
-1. Open **LS100_Guides-and-Readings -> Research Guide 01** to understand how to frame research plans and research proposals.
-2. Next, read the **Computation Guide 01** and set up your Python environment.
-3. If you are new to Python Programming, start with **Module 00, Notebook 01**. Follow notebooks in numeric order.
-4. Depending on your data type, choose either the `LS100_01A_Video-data` or the `LS100_01B_Audio-data` folder, and follow the notebooks in numeric order.
-5. Once you have data ready to analyze, check the notebooks in the `LS100_02_Data-Science_Stats` folder.
-6. The reading guide `Art-of-Communicating-Science` in the "LS100_Guides-and-Readings" folder gives a comprehensive idea of presenting your findings effectively.
+1. Open **`LS100_00A_Research-Plans-And-Proposals` → Research Guide 01** to understand how to frame research plans and research proposals.
+2. Next, read **Computation Guide 01** (in `LS100_00B_Python-Fundamentals`) and set up your Python environment.
+3. If you are new to Python programming, start with **`LS100_00B_Python-Fundamentals`, Notebook 01**, and follow the notebooks in numeric order.
+4. Depending on your data type, choose either the `LS100_01A_Video-data` or the `LS100_01B_Audio-Data` folder, and follow the notebooks in numeric order.
+5. Once you have data ready to analyze, work through the notebooks in `LS100_02_Data-Science_Stats` — and use the **Navigational Guide to Statistical Methods** and the **test-selection decision-tree poster** in that same folder to choose the right test.
+6. The reading guide **Art of Communicating Science** in `LS100_03_Communication-and-Presentation` gives a comprehensive idea of presenting your findings effectively.
 
 ---
 
@@ -49,23 +49,47 @@ There are primarily two types of materials: Reading guides and Python Jupyter no
 
 ```
 Computational-Behavioral-Sciences_LS100_Harvard/
-├── LS100_00_Python-Fundamentals/   # Notebooks 01–05: learn Python for research, from scratch
-├── LS100_01A_Video-data/           # Video → pose → kinematics → behavior classification
-├── LS100_01B_Audio-Data/           # Digital audio → features → clustering
-├── LS100_02_Data-Science_Stats/    # Statistics and data-wrangling helpers
-├── LS100_Guides-and-Readings/      # Written guides (Python, research, communication, Careers in data)
-├── LS100_Document-00_Module-Description_Computational-Behavior-Science_LastUpdated-20250529.pdf
+├── LS100_00_Document-00_Module-Description_...pdf   # Course overview
+├── LS100_00_Document-01_Curriculum_...pdf           # Course curriculum / weekly timeline
+├── LS100_00A_Research-Plans-And-Proposals/          # Framing research questions and proposals
+├── LS100_00B_Python-Fundamentals/                   # Computation guides + Notebooks 01–05
+├── LS100_01A_Video-data/                            # Video → pose → kinematics → behavior classification
+├── LS100_01B_Audio-Data/                            # Digital audio → features → clustering
+├── LS100_02_Data-Science_Stats/                     # Statistics notebooks + test-selection guide & poster
+├── LS100_03_Communication-and-Presentation/         # Communicating and presenting science
+├── LS100_Career-Guide01_Data-Careers_...pdf         # Careers in the data landscape
 ├── LICENSE
 └── README.md
 ```
 
-Each module folder contains Jupyter notebooks numbered in the recommended order.
+The repository is organized to follow the research workflow — from framing a question (`00A`), to Python and data skills (`00B`), to collecting and processing data (`01A` / `01B`), to analysis (`02`), to communication (`03`). Each module folder contains its notebooks (numbered in the recommended order) together with the reading guide(s) relevant to that stage.
 
 ---
 
-## Module 00 - Python Fundamentals
+## Course documents (repository root)
 
-A self-contained, five-notebook path from basic Python syntax to object-oriented design framed around behavioral research examples.
+- **Document 00 — Module Description**: a one-page overview of the course.
+- **Document 01 — Curriculum**: the topic-by-topic / weekly timeline.
+- **Career Guide 01 — Data Careers**: a guide to roles in the data landscape and how course skills map onto them.
+
+---
+
+## Module 00A - Research Plans and Proposals
+
+How to turn an interest into a researchable question and a credible proposal.
+
+- **Research Guide 01 — Writing Research Plans and Proposals**: framing questions, hypotheses, and study design.
+
+---
+
+## Module 00B - Python Fundamentals
+
+A self-contained, five-notebook path from basic Python syntax to object-oriented design framed around behavioral research examples, plus two written companions for setup and terminology.
+
+Reading guides in this folder:
+
+- **Computation Guide 01 — Getting Started with Python** (installation, environments, notebooks)
+- **Computation Guide 02 — Essential Python Terminologies and Concepts**
 
 | # | Notebook | What it covers |
 | :--- | :--- | :--- |
@@ -89,9 +113,9 @@ An end‑to‑end pipeline that turns raw video into quantified, classifiable be
 | 01 | Video Processing - Video Chunker | Splitting a video into fixed-frame-count chunks |
 | 02 | Pose Estimation - MediaPipe | Extracting body keypoints from video with MediaPipe |
 | 02 | Pose Estimation - YOLO | Pose estimation for biomechanics applications with YOLO |
-| 02 | Pose Estimation - YOLO GPU (Colab) | GPU-based keypoint extraction for single files and batches |
+| 02 | Pose Estimation - YOLOv8 GPU (Colab) | GPU-based keypoint extraction for single files and batches |
 | 02 | Training a Custom YOLO Model | Training a model to track custom keypoints or objects (Label Studio to training pipeline) |
-| 03 | Extracting Joint Angles | Computing joint angles from MediaPipe and keypoint landmarks |
+| 03 | Extracting Joint Angles | Computing joint angles from MediaPipe and YOLO landmarks |
 | 04 | Deriving Indices from Angles | Converting angle time series into biomechanical indices |
 | 05A / 05B | Sequence-Based Classification | Preparing pose sequences and training behavior classification models |
 
@@ -99,7 +123,7 @@ An end‑to‑end pipeline that turns raw video into quantified, classifiable be
 
 ## Module 01B - Audio Data
 
-From the physics of digital sound to AI-assisted feature extraction and clustering.
+From the physics of digital sound to AI-assisted feature extraction and clustering. The folder also includes the companion guide **Introduction to Digital Audio in Python**.
 
 | # | Notebook | What it covers |
 | :--- | :--- | :--- |
@@ -113,33 +137,52 @@ From the physics of digital sound to AI-assisted feature extraction and clusteri
 
 ## Module 02 - Data Science and Statistics
 
+Notebooks for analyzing your processed data, plus reference guides for choosing the right test.
+
 | Notebook | What it covers |
 | :--- | :--- |
-| Classical Statistical Tests | Introduction to data analysis | 
+| Classical Statistical Tests | Hypothesis-testing logic, t-tests, ANOVA, correlation, regression, and non-parametric alternatives |
 | Intro to Linear Mixed-Effects Models | Why simple t-tests are not enough; fitting and interpreting LMMs for repeated-measures behavioral data |
 | Helper - Finding Local Extremum in Data | Trimming time-series data files at a detected event or inflection point |
 
+Reference guides in this folder:
+
+- **Navigational Guide to Statistical Methods** — a dictionary that maps a research question and data features to the appropriate test.
+- **Test-Selection Decision-Tree** — a print-ready poster (PDF) and an editable vector source (SVG) for quick at-a-glance test selection.
+
 ---
 
-## LS100_Guides-and-Readings
+## Module 03 - Communication and Presentation
 
-Written companions to the notebooks:
+Turning results into a clear scientific story.
 
-- **Computation Guide 01 - Getting Started with Python** (installation, environments, notebooks)
-- **Computation Guide 02 - Essential Python Terminologies and Concepts**
-- **Research Guide 01 - Writing Research Plans and Proposals**
-- **Research Guide 02 - The Art of Communicating Science**
-- **Career Guide - Careers in the Data Landscape**
+- **Research Guide 02 — The Art of Communicating Science**: structuring talks, designing slides and figures, and presenting findings effectively.
+
+---
+
+## Reading guides at a glance
+
+The written guides live alongside the stage of the workflow they support:
+
+| Guide | Location |
+| :--- | :--- |
+| Research Guide 01 — Writing Research Plans and Proposals | `LS100_00A_Research-Plans-And-Proposals/` |
+| Computation Guide 01 — Getting Started with Python | `LS100_00B_Python-Fundamentals/` |
+| Computation Guide 02 — Essential Python Terminologies and Concepts | `LS100_00B_Python-Fundamentals/` |
+| Introduction to Digital Audio in Python | `LS100_01B_Audio-Data/` |
+| Navigational Guide to Statistical Methods (+ decision-tree poster) | `LS100_02_Data-Science_Stats/` |
+| Research Guide 02 — The Art of Communicating Science | `LS100_03_Communication-and-Presentation/` |
+| Career Guide 01 — Data Careers | repository root |
 
 ---
 
 ## Suggested learning path
 
-1. **Start with Module 00** to build Python fluency (Notebooks 01 to 05).
-2. **Choose your data modality**: Module 01A (video/movement), Module 01B (audio/vocalization), or both.
-3. **Quantify and model behavior** using the video/audio pipelines.
-4. **Use Module 02** to analyze outcomes with statistical methods.
-5. **Read the guides in LS100_Guides-and-Readings** to strengthen research design and scientific communication.
+1. **Frame your study** with Research Guide 01 in `LS100_00A_Research-Plans-And-Proposals`.
+2. **Build Python fluency** with Module `LS100_00B_Python-Fundamentals` (Notebooks 01 to 05) and its computation guides.
+3. **Choose your data modality**: Module 01A (video/movement), Module 01B (audio/vocalization), or both, and run the processing pipelines.
+4. **Analyze your outcomes** with Module 02, using the statistical-methods guide and decision-tree poster to pick the right test.
+5. **Communicate your findings** with Research Guide 02 in `LS100_03_Communication-and-Presentation`.
 
 ---
 
