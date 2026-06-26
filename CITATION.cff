@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use these materials in your teaching or research, please cite them as below."
+title: "LS100: Computational Behavioral Sciences — Foundations of Data Science and Applied AI/ML for Conducting Research in Behavioral Sciences"
+type: software
+authors:
+  - given-names: Souvik
+    family-names: Mandal
+    affiliation: "Harvard University"
+abstract: >-
+  Open course materials for LS100 (Harvard University): a research-based course on
+  quantifying human and animal behavior using Python, data science, computer vision,
+  audio analysis, and applied AI/ML. Includes Jupyter notebooks (from Python
+  fundamentals through pose estimation, audio feature extraction, and statistics)
+  and written reading guides.
+repository-code: "https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard"
+url: "https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard"
+keywords:
+  - behavioral-science
+  - computational-ethology
+  - animal-behavior
+  - data-science
+  - machine-learning
+  - computer-vision
+  - pose-estimation
+  - audio-processing
+  - statistics
+  - python
+  - jupyter-notebooks
+  - course-materials
+license: CC-BY-NC-4.0
+date-released: "2026-06-23"

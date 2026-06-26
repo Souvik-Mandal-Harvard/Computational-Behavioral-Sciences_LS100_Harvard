@@ -191,8 +191,9 @@ The written guides live alongside the stage of the workflow they support:
 You are encouraged to design your own question. Common directions include exploring patterns in some data of interest supported with:
 
 - **Movement Analytics** for sports, dance, and rehabilitation: pose tracking to quantify posture, efficiency, and injury risk.
-- **Vocal or instrument learning**: extracting audio features (for example, pitch stability and timing), tracking progress over time, designing soundscape wellness, music therapy, etc.
-- **Behavior prediction from video**: extracting poses, classifying behaviors, and forecasting behavior in novel videos.
+- **Vocal or instrument learning**: by extracting audio features (for example, pitch stability and timing), tracking progress over time, designing wellness soundscape, music therapy, etc.
+- **Behavior prediction from video**: by extracting poses, classifying behaviors, and forecasting behavior in novel videos.
+- **Forecasting Human Behavior from Digital Traces**: analyzing human activity data gathered from the internet alongside external variables, such as climate trends or economic indicators.
 
 ---
 
@@ -230,11 +231,37 @@ You are encouraged to design your own question. Common directions include explor
 
 ---
 
+## How to use and cite this repository
+
+**How to use it.** The materials are free to use for learning and non-commercial teaching:
+
+- **Learners:** follow the [Suggested learning path](#suggested-learning-path) above. You can run the notebooks three ways — download and run locally, open them in Google Colab, or fork the repository and work in GitHub Codespaces.
+- **Instructors:** you are welcome to adopt or adapt any module, notebook, or reading guide for your own non-commercial teaching. Attribution is appreciated (see below).
+- **Researchers:** the video, audio, and statistics pipelines are designed to be reused on your own behavioral data.
+
+**How to cite it.** If these materials support your teaching or research, please cite them:
+
+> Mandal, S. (2026). *LS100: Computational Behavioral Sciences — Foundations of Data Science and Applied AI/ML for Conducting Research in Behavioral Sciences* [Course materials]. Harvard University. GitHub repository: https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard
+
+BibTeX:
+
+```bibtex
+@misc{mandal2026ls100,
+  author       = {Mandal, Souvik},
+  title        = {{LS100: Computational Behavioral Sciences --- Foundations of Data Science
+                  and Applied AI/ML for Conducting Research in Behavioral Sciences}},
+  year         = {2026},
+  howpublished = {Course materials, Harvard University},
+  note         = {GitHub repository},
+  url          = {https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard}
+}
+```
+
+---
+
 
 ## License and use
 
-Released for non-commercial use. See [LICENSE](LICENSE).
-
-You are welcome to use these materials for learning and non-commercial teaching. Attribution is appreciated.
+These materials are licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)** — see [LICENSE](LICENSE). You are free to **share and adapt** them for **non-commercial** purposes, provided you give **attribution**. For commercial use, please contact the author.
 
 *LS100 - Computational Behavioral Sciences, Harvard University*
