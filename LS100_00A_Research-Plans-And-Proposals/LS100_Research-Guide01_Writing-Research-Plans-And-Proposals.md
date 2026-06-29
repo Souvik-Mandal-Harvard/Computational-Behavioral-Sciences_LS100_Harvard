@@ -25,11 +25,11 @@ The title of your research plan should be concise yet descriptive. It is the fir
 3.  Avoid cleverness that obscures meaning; prefer clarity over novelty.
 
 
-:::{tip} Critical evaluation
+:::{tip} Critical Evaluation:
 Test your title by asking: “Could someone guess the main question(s), method, and outcome from this line?”
 :::
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] Draft 3 title options, underlining phenomenon, question(s), method, and outcome in each.
 
@@ -43,7 +43,7 @@ The abstract is a compact overview of the entire plan, proposal or report, usual
 
 Although the abstract appears first, it is often written last — after you have developed the full plan — to ensure it accurately reflects the contents of the plan.
 
-:::{tip} Critical evaluation
+:::{tip} Critical Evaluation:
 Does the abstract overreach (too many aims, vague methods) or under-specify (missing who/what/where/how)? Imagine a peer must decide in 60 seconds whether the study is coherent and feasible; write to that decision.
 :::
 
@@ -61,7 +61,7 @@ It should contain five elements:
 
 Good abstracts are tight but concrete: name variables, units of analysis, and comparisons (e.g., before/after; cohort A vs B). Avoid buzzwords unless you operationalize them (for example, instead of just saying “engagement,” specify it as an index derived from “mean session duration, completion rate” – the variable you directly measured).
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] List 2–3 research questions, each explicitly naming the variables and unit of analysis.
 
@@ -87,11 +87,11 @@ Your goal is to lead the reader toward your research vision: by the end of the i
 
 Ensure **traceability** in your narrative: form a logical chain from background → research questions → methods. After this section, readers should smoothly transition into the Research Questions section.
 
-:::{note} LS100 Task: 
+:::{note} LS100 Task:
 Select 4–8 **anchor sources** (seminal studies, recent systematic reviews, or authoritative datasets) for the introduction of the research plan. For each, extract the actionable insight (claim, method, or limitation) that shapes your study.
 :::
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] Write a 2–3 sentence problem statement.
 
@@ -115,11 +115,11 @@ For each RQ, specify the: **(i)** variables involved (predictors/outcomes), **(i
 
 Finally, ensure **alignment** throughout your plan: objectives → RQs → measures → analyses → figures. Misalignment (e.g., posing an RQ about variability but reporting means) is the most common source of weak findings and should be avoided.
 
-:::{note} LS100 Task: 
+:::{note} LS100 Task:
 Keep **2 primary RQs** and **1 backup RQ** (activated if feasibility issues arise during the project). Ensure **construct validity** by tying each RQ to an operational definition (e.g., if you use an “engagement index,” define it explicitly, such as engagement index = a function of {completion rate, dwell time, return frequency}). Map each RQ to one planned figure/table and one analysis method. Test for **Goldilocks scope**: too broad (unanswerable), too narrow (trivial), or just right - answerable with your data, and meaningful to the field.
 :::
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] List your 2 main objectives, and map each to its corresponding RQ (plus identify 1 backup RQ).
 
@@ -151,7 +151,7 @@ data acquisition → preprocessing/cleaning → feature extraction/coding → qu
 
 Overall, the methodology must be **replicable**: a peer should be able to read this section and have a clear roadmap to recreate your study (with the help of your appendices for any detailed protocols).
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] Write one paragraph describing your design choice and justification, including one identified threat to validity and how you will mitigate it.
 
@@ -175,7 +175,7 @@ Use version control (e.g., Git) for code and writing. For data, consider either 
 
 Critically, specify **access control** measures: who can read/edit which folders, how sensitive data are anonymized, and where keys or consent forms are stored (e.g., in a separate secure location with restricted access). The goal is to make your project **hand-offable** – if you were unavailable, a peer should be able to pick up the project and continue with minimal confusion or loss of integrity.
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] Sketch a directory tree for your project and define a naming convention for files.
 
@@ -199,7 +199,7 @@ For observational studies or projects using scraped datasets, address terms of s
 
 Ethics sections should be **specific and practical**, not generic. State *exactly* how you will handle any particularly sensitive information (e.g., faces, names, GPS, or any sensitive/ protected attributes). Note where consent forms and decryption keys are stored (ideally separately from the data, with limited access), and who has role-based access. Close with a **risk-benefit** reflection: why anticipated benefits outweigh residual risks and what safeguards you will monitor throughout.
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] Identify the type of ethics review required (exempt, expedited, or full) and give a one-sentence reason for that category.
 
@@ -235,7 +235,7 @@ It’s also a good idea to explicitly model potential risks in your timeline. Fo
 
 Feasibility is key: align your planned effort with real-world constraints (consider academic calendars, holidays, or limited lab access periods). Also reserve a final phase for polishing the report, formatting, and doing final reproducibility checks before submission. The timeline should ultimately persuade readers (and reassure yourself) that the project can be accomplished in the available time.
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] Create a table or list of phases/milestones with columns for **phase name**, **description of tasks**, **start and end dates**, **deliverables for that phase**, **anticipated risks**, and **buffers** allocated. Each row/phase should be distinct and sequential.
 
@@ -267,7 +267,7 @@ It’s also important to acknowledge **limitations** in advance. Note what the s
 
 Highlighting the expected outcomes and impact demonstrates the value of the project. Essentially, you are answering what difference the research could make if successful – both within your academic field (advancing knowledge) and in a broader context (real-world application).
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] For each RQ, list the figure or table you plan to produce and write one line on the key finding you expect it to show (interpretation).
 
@@ -295,7 +295,7 @@ It’s helpful to maintain a **bibliographic log** while reading: for each sourc
 
 You may use reference management software to organize your citations. Tools like [Zotero](https://www.zotero.org/) (free, open-source), [Mendeley](https://www.mendeley.com/) (free, requires a university login for an account), and [EndNote](https://endnote.com/) (subscription-based) can help you keep track of sources and automatically format citations in your chosen style.
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] Choose a citation style and set it as the default in your reference manager before you start writing, to maintain consistency.
 
@@ -319,7 +319,7 @@ Deliverables for submission will typically include: the research plan itself (as
 
 Ensure the proposal itself is understandable on its own. The main text should be understandable without constantly flipping to appendices – appendices are there to provide depth for the reader who wants to know more. Together, thorough references and well-organized appendices convey professionalism and attention to detail in your research plan.
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] Draft a variable dictionary (data schema) with definitions and units for each key variable, and consider placing it in an appendix.
 
@@ -343,7 +343,7 @@ Identify the top risks to your project (e.g., difficulty recruiting participants
 
 Cultivate **interpretive humility**: be clear about what is exploratory versus confirmatory in your analysis, and label results accordingly. If you must deviate from the original plan, explain why the new path is still aligned with your core objectives and how you will ensure the validity of the study despite the changes. Showing that you can adapt thoughtfully and responsibly is far better than rigidly sticking to a failing approach.
 
-:::{dropdown} Worksheet checklist
+:::{dropdown} Worksheet Checklist
 
 - [ ] List the top 3 risks to your project and for each, note how you would detect if it’s becoming an issue (e.g., monitor weekly recruitment numbers, check sensor calibration data) and what pivot or backup plan you have in place.
 
