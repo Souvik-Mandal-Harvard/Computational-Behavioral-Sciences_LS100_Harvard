@@ -87,7 +87,7 @@ Your goal is to lead the reader toward your research vision: by the end of the i
 
 Ensure **traceability** in your narrative: form a logical chain from background → research questions → methods. After this section, readers should smoothly transition into the Research Questions section.
 
-:::{note} LS100 task
+:::{note} LS100 Task: 
 Select 4–8 **anchor sources** (seminal studies, recent systematic reviews, or authoritative datasets) for the introduction of the research plan. For each, extract the actionable insight (claim, method, or limitation) that shapes your study.
 :::
 
@@ -115,7 +115,7 @@ For each RQ, specify the: **(i)** variables involved (predictors/outcomes), **(i
 
 Finally, ensure **alignment** throughout your plan: objectives → RQs → measures → analyses → figures. Misalignment (e.g., posing an RQ about variability but reporting means) is the most common source of weak findings and should be avoided.
 
-:::{note} LS100 task
+:::{note} LS100 Task: 
 Keep **2 primary RQs** and **1 backup RQ** (activated if feasibility issues arise during the project). Ensure **construct validity** by tying each RQ to an operational definition (e.g., if you use an “engagement index,” define it explicitly, such as engagement index = a function of {completion rate, dwell time, return frequency}). Map each RQ to one planned figure/table and one analysis method. Test for **Goldilocks scope**: too broad (unanswerable), too narrow (trivial), or just right - answerable with your data, and meaningful to the field.
 :::
 
