@@ -1,0 +1,63 @@
+version: 1
+project:
+  id: ls100-computational-behavioral-sciences
+  title: 'LS100: Computational Behavioral Sciences'
+  subtitle: Foundations of Data Science and Applied AI/ML for Conducting Research in Behavioral Sciences
+  description: >-
+    A research-based Harvard course on quantifying the behavior of humans and other
+    animals using Python, computer vision, audio analysis, and statistics.
+  authors:
+    - name: Souvik Mandal
+      affiliations:
+        - Harvard University
+      url: https://souvikmandal.info
+  github: https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard
+  license:
+    content: CC-BY-NC-4.0
+  open_access: true
+  # Files that are built but not part of the student-facing navigation
+  exclude:
+    - README.md
+  toc:
+    - file: site/index.md
+    - file: site/start-here.md
+    - file: site/how-to-run.md
+    - title: Modules
+      children:
+        - file: LS100_00A_Research-Plans-And-Proposals/index.md
+          children:
+            - pattern: 'LS100_00A_Research-Plans-And-Proposals/*.md'
+        - file: LS100_00B_Python-Fundamentals/index.md
+          children:
+            - pattern: 'LS100_00B_Python-Fundamentals/*.md'
+            - pattern: 'LS100_00B_Python-Fundamentals/*.ipynb'
+        - file: LS100_01A_Video-data/index.md
+          children:
+            - pattern: 'LS100_01A_Video-data/*.ipynb'
+        - file: LS100_01B_Audio-Data/index.md
+          children:
+            - pattern: 'LS100_01B_Audio-Data/*.md'
+            - pattern: 'LS100_01B_Audio-Data/*.ipynb'
+        - file: LS100_02_Data-Science_Stats/index.md
+          children:
+            - pattern: 'LS100_02_Data-Science_Stats/*.md'
+            - pattern: 'LS100_02_Data-Science_Stats/*.ipynb'
+        - file: LS100_03_Communication-and-Presentation/index.md
+          children:
+            - pattern: 'LS100_03_Communication-and-Presentation/*.md'
+    - file: site/reading-guides.md
+    - file: site/project-ideas.md
+    - file: site/curriculum.md
+    - file: site/about.md
+site:
+  template: book-theme
+  title: 'LS100: Computational Behavioral Sciences'
+  options:
+    style: site/_static/ls100.css
+    hide_outline: false
+  nav: []
+  actions:
+    - title: Start Here
+      url: /start-here
+    - title: GitHub
+      url: https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard

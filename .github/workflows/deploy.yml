@@ -1,0 +1,77 @@
+# Build the MyST (Jupyter Book) site + per-guide PDFs and publish it.
+#
+# ── ACTIVE: Option B — serve at souvikmandal.info/ls100/ ──────────────────────
+#   On every push to main, this builds the HTML in the cloud and pushes it into
+#   the `page` repo under /ls100. The course repo's own GitHub Pages is NOT used.
+#   Requires a deploy secret: PAGE_REPO_DEPLOY_KEY (see the deployment runbook).
+#
+#   To fall back to Option A (publish to THIS repo's own GitHub Pages, no secret),
+#   see the commented block at the bottom of this file.
+
+name: Build & Deploy LS100 site
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  # Site is served from the /ls100 sub-path of souvikmandal.info
+  BASE_URL: /ls100
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ls100-deploy
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+      - name: Install MyST Markdown
+        run: npm install -g mystmd
+      - name: Setup Typst (for PDF guides)
+        uses: typst-community/setup-typst@v4
+
+      # Build PDFs first so the HTML build can attach them as download buttons.
+      - name: Build PDF guides
+        run: myst build --pdf
+        # Non-fatal: if a guide PDF fails, the site still ships.
+        continue-on-error: true
+      - name: Build HTML site
+        run: myst build --html
+
+      # Publish the built HTML into the page repo's /ls100 folder.
+      - name: Deploy into page repo /ls100
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.PAGE_REPO_DEPLOY_KEY }}
+          external_repository: Souvik-Mandal-Harvard/page
+          publish_branch: main          # ⬅ VERIFY: the branch that serves souvikmandal.info
+                                         #    (page repo → Settings → Pages). Change if not "main".
+          publish_dir: ./_build/html
+          destination_dir: ls100         # → souvikmandal.info/ls100/
+          keep_files: true               # leave the rest of the personal site untouched
+
+# ─────────────────────────────────────────────────────────────────────────────
+# OPTION A (fallback) — publish to THIS repo's own GitHub Pages, no secret needed.
+# URL: https://souvik-mandal-harvard.github.io/Computational-Behavioral-Sciences_LS100_Harvard/
+# To use it: set env BASE_URL to /Computational-Behavioral-Sciences_LS100_Harvard,
+# remove the "Deploy into page repo /ls100" step above, add `pages: write` and
+# `id-token: write` to permissions, and append these steps to the job:
+#
+#      - name: Setup Pages
+#        uses: actions/configure-pages@v3
+#      - name: Upload artifact
+#        uses: actions/upload-pages-artifact@v3
+#        with:
+#          path: ./_build/html
+#      - name: Deploy to GitHub Pages
+#        uses: actions/deploy-pages@v4
+#  …and in the repo: Settings → Pages → Source = "GitHub Actions".
+# ─────────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,32 @@
+# LS100 — Computational Behavioral Sciences
+# Python dependencies for running the course notebooks (local / Codespaces).
+
+# Notebook environment
+jupyter
+ipykernel
+
+# Core data stack
+pandas
+numpy
+scipy
+statsmodels
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Computer vision
+opencv-python
+mediapipe
+ultralytics
+
+# Audio
+librosa
+crepe
+
+# Machine learning
+scikit-learn
+torch
+hdbscan
+umap-learn

@@ -1,0 +1,40 @@
+/* LS100 branding — crimson #A51C30, navy/ink #1F2933, sans-serif.
+   Overrides the MyST book theme to match the course materials. */
+
+:root {
+  --ls100-crimson: #A51C30;
+  --ls100-crimson-dark: #7d1524;
+  --ls100-ink: #1F2933;
+
+  /* Common MyST/theme custom properties (set broadly; harmless if unused) */
+  --color-link: var(--ls100-crimson);
+  --color-primary: var(--ls100-crimson);
+  --mystmd-color-primary: var(--ls100-crimson);
+}
+
+body {
+  color: var(--ls100-ink);
+  font-family: Arial, "Helvetica Neue", Helvetica, system-ui, sans-serif;
+}
+
+/* Links and accents */
+a { color: var(--ls100-crimson); }
+a:hover { color: var(--ls100-crimson-dark); }
+
+/* Headings in ink */
+h1, h2, h3, h4, h5, h6 { color: var(--ls100-ink); }
+
+/* Primary buttons / call-to-action */
+.button[data-kind="primary"],
+a.button.primary,
+button[aria-label="primary"] {
+  background-color: var(--ls100-crimson) !important;
+  border-color: var(--ls100-crimson) !important;
+  color: #fff !important;
+}
+
+/* Left rule on admonition callouts uses the crimson accent for "tip" */
+.admonition.tip { border-left-color: var(--ls100-crimson); }
+
+/* Cards: subtle crimson on hover */
+.card:hover { border-color: var(--ls100-crimson); }
