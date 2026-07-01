@@ -9,7 +9,7 @@ exports:
     id: stats-pdf
 downloads:
   - id: stats-pdf
-    title: Download this guide (PDF)
+    title: Download the article (PDF)
   - file: LS100_Stats-Guide01_Test-Selection-Decision-Tree_Poster_LastUpdated-20260616.pdf
     title: Decision-tree poster (PDF)
   - file: LS100_Stats-Guide01_Test-Selection-Decision-Tree_LastUpdated-20260616.svg
@@ -26,7 +26,7 @@ Souvik Mandal, Ph.D., [Linkedin ID: souvik-mandal-phd](https://www.linkedin.com/
 
 Behavioral data are often messy, count-heavy, zero-inflated, or tightly clustered within individuals, and rarely arrive in a clean, normally distributed package. Choosing the correct statistical tool requires diagnosing both the nature of your research question and the structural features of your data. This guide is a diagnostic map: instead of detailing the underlying mathematics, it tells you — given (a) your research question and (b) your data's features — (c) which statistical test family is appropriate. Within each objective, tests are ordered from the most general/basic to the most case-specific/advanced tests. Use it together with the one-page decision-tree poster that accompanies this guide.
 
-![Test-selection decision tree — the one-page map that accompanies this guide](LS100_Stats-Guide01_Test-Selection-Decision-Tree_LastUpdated-20260616.svg)
+![Test-selection decision tree — the one-page map that accompanies this guide](LS100_Stats-Guide01_Test-Selection-Decision-Tree_LastUpdated-20260616.png)
 
 ## Step 0: Characterize Your Question and Your Data
 

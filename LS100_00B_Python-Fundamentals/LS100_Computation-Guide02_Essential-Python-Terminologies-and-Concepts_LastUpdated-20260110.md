@@ -9,7 +9,7 @@ exports:
     id: cg02-pdf
 downloads:
   - id: cg02-pdf
-    title: Download this guide (PDF)
+    title: Download the article (PDF)
 ---
 
 Souvik Mandal, Ph.D., [Linkedin ID: souvik-mandal-phd](https://www.linkedin.com/in/souvik-mandal-phd)

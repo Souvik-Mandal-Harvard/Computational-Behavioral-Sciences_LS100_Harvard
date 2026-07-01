@@ -9,7 +9,7 @@ exports:
     id: rg01-pdf
 downloads:
   - id: rg01-pdf
-    title: Download this guide (PDF)
+    title: Download the article (PDF)
 ---
 
 This guide outlines the essential components of a clear, effective research plan or proposal. It breaks down each section — Title, Abstract, Introduction, Objectives & Questions, Methodology, Data Management, Ethics, Timeline, Expected Outcomes, and more — explaining their purposes and offering tips for coherence and rigor. The guide also provides critical-evaluation checkpoints and worksheet checklists for every section, enabling continuity from initial idea to final appendices. By following this guidance, students can develop a well-structured, feasible research plan that demonstrates scholarly grounding and practical significance.

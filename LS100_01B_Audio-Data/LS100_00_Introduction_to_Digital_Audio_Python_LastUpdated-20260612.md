@@ -9,7 +9,7 @@ exports:
     id: audio-pdf
 downloads:
   - id: audio-pdf
-    title: Download this guide (PDF)
+    title: Download the article (PDF)
 ---
 
 Souvik Mandal, Ph.D.

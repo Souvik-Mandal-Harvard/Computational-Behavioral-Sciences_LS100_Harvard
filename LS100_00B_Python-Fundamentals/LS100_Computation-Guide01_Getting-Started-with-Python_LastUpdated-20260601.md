@@ -9,7 +9,7 @@ exports:
     id: cg01-pdf
 downloads:
   - id: cg01-pdf
-    title: Download this guide (PDF)
+    title: Download the article (PDF)
 ---
 
 **Welcome to Python: A Beginner’s Guide**

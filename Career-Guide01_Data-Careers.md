@@ -9,7 +9,7 @@ exports:
     id: career-pdf
 downloads:
   - id: career-pdf
-    title: Download this guide (PDF)
+    title: Download the article (PDF)
 ---
 
 **LS100 Guide**

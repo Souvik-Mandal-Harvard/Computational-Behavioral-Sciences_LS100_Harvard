@@ -9,7 +9,7 @@ exports:
     id: comm-pdf
 downloads:
   - id: comm-pdf
-    title: Download this guide (PDF)
+    title: Download the article (PDF)
 ---
 
 **The Art of Communicating Science: A Guide & Checklist**
