@@ -1,20 +1,22 @@
 ---
-title: Essential Python Terminologies and Concepts
-short_title: Computation Guide 02
 subtitle: 'LS100 — Module 00B · Python Fundamentals'
+title: Essential Python Terminologies and Concepts
+short_title: Module 00B Computation Guide 02
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_Computation-Guide02_Essential-Python-Terminologies-and-Concepts_LastUpdated-20260110.pdf
+    output: exports/LS100_00B_Computation-Guide02_Essential-Python-Terminologies-and-Concepts_LastUpdated-20260110.pdf
     id: cg02-pdf
 downloads:
   - id: cg02-pdf
     title: Download the article (PDF)
 ---
 
-Souvik Mandal, Ph.D., [Linkedin ID: souvik-mandal-phd](https://www.linkedin.com/in/souvik-mandal-phd)
+*Authored by* **Souvik Mandal, Ph.D.**
 
-*Project Leader & Instructor, Computational Behavioral Sciences, LS100, FAS, Harvard University*
+*Project Leader & Instructor, Computational Behavioral Sciences, LS100, FAS, Harvard University* | Linkedin ID: [souvik-mandal-phd](https://www.linkedin.com/in/souvik-mandal-phd)
+
+---
 
 Below is a list of key Python terminologies every beginner should understand, along with brief explanations:
 

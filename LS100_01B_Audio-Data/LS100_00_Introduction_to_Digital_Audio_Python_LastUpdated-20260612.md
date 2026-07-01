@@ -1,20 +1,22 @@
 ---
-title: Sound as Digital Audio Data
-short_title: Introduction to Digital Audio
 subtitle: 'LS100 — Module 01B · Audio Data'
+title: Sound as Digital Audio Data - An Introduction
+short_title: Module 01B · Introduction to Digital Audio
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_00_Introduction_to_Digital_Audio_Python_LastUpdated-20260612.pdf
+    output: exports/LS100_01B_Guide01_Introduction_to_Digital_Audio_Python.pdf
     id: audio-pdf
 downloads:
   - id: audio-pdf
     title: Download the article (PDF)
 ---
 
-Souvik Mandal, Ph.D.
+*Authored by* **Souvik Mandal, Ph.D.**
 
-Project Leader & Instructor, LS100, FAS, Harvard University | LinkedIn: [linkedin.com/in/souvik-mandal-phd](https://www.linkedin.com/in/souvik-mandal-phd)
+*Project Leader & Instructor, Computational Behavioral Sciences, LS100, FAS, Harvard University* | Linkedin ID: [souvik-mandal-phd](https://www.linkedin.com/in/souvik-mandal-phd)
+
+---
 
 ## 1. Introduction: The Core Digitization Paradox
 

@@ -1,20 +1,25 @@
 ---
-title: Writing Research Plans and Proposals
-short_title: Research Guide 01
 subtitle: 'LS100 — Module 00A · Research Plans & Proposals'
+title: Writing Research Plans and Proposals
+short_title: Module 00A · Research Guide 01
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_Research-Guide01_Writing-Research-Plans-And-Proposals.pdf
+    output: exports/LS100_00A_Research-Guide01_Writing-Research-Plans-And-Proposals.pdf
     id: rg01-pdf
 downloads:
   - id: rg01-pdf
     title: Download the article (PDF)
 ---
+*Authored by* **Souvik Mandal, Ph.D.**
+
+*Project Leader & Instructor, Computational Behavioral Sciences, LS100, FAS, Harvard University* | Linkedin ID: [souvik-mandal-phd](https://www.linkedin.com/in/souvik-mandal-phd)
+
+---
 
 This guide outlines the essential components of a clear, effective research plan or proposal. It breaks down each section — Title, Abstract, Introduction, Objectives & Questions, Methodology, Data Management, Ethics, Timeline, Expected Outcomes, and more — explaining their purposes and offering tips for coherence and rigor. The guide also provides critical-evaluation checkpoints and worksheet checklists for every section, enabling continuity from initial idea to final appendices. By following this guidance, students can develop a well-structured, feasible research plan that demonstrates scholarly grounding and practical significance.
 
-## 1. Title
+## Title
 
 The title of your research plan should be concise yet descriptive. It is the first element readers see, and it creates an initial impression of your project. A strong title captures the essence of the study in a few informative words, allowing others to immediately grasp the topic. A good title should
 
@@ -87,7 +92,7 @@ Your goal is to lead the reader toward your research vision: by the end of the i
 
 Ensure **traceability** in your narrative: form a logical chain from background → research questions → methods. After this section, readers should smoothly transition into the Research Questions section.
 
-:::{note} LS100 Task:
+:::{note} **LS100 Task:**
 Select 4–8 **anchor sources** (seminal studies, recent systematic reviews, or authoritative datasets) for the introduction of the research plan. For each, extract the actionable insight (claim, method, or limitation) that shapes your study.
 :::
 

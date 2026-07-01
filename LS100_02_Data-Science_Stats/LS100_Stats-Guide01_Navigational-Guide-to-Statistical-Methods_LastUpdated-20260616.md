@@ -1,11 +1,11 @@
 ---
 title: A Navigational Guide to Statistical Methods
-short_title: Statistics Guide 01
+short_title: Module 02 · Statistics Guide 01
 subtitle: 'LS100 — Module 02 · Data Science & Statistics'
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_Stats-Guide01_Navigational-Guide-to-Statistical-Methods_LastUpdated-20260616.pdf
+    output: exports/LS100_02_Stats-Guide01_Navigational-Guide-to-Statistical-Methods_LastUpdated-20260616.pdf
     id: stats-pdf
 downloads:
   - id: stats-pdf

@@ -1,22 +1,22 @@
 ---
-title: The Art of Communicating Science
-short_title: Research Guide 02
 subtitle: 'LS100 — Module 03 · Communication & Presentation'
+title: The Art of Communicating Science - A Guide & Checklist
+short_title: Module 03 · Communication & Presentation Guide
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_Research-Guide02_Art-of-Communicating-Science_LastUpdated-20251108.pdf
+    output: exports/LS100_03_Guide01_Art-of-Communicating-Science_LastUpdated-20251108.pdf
     id: comm-pdf
 downloads:
   - id: comm-pdf
     title: Download the article (PDF)
 ---
 
-**The Art of Communicating Science: A Guide & Checklist**
+*Authored by* **Souvik Mandal, Ph.D.**
 
-Souvik Mandal, Ph.D., Souvik Mandal, Ph.D., [Linkedin ID: souvik-mandal-phd](https://www.linkedin.com/in/souvik-mandal-phd)
+*Project Leader & Instructor, Computational Behavioral Sciences, LS100, FAS, Harvard University* | Linkedin ID: [souvik-mandal-phd](https://www.linkedin.com/in/souvik-mandal-phd)
 
-*Project Leader & Instructor, Computational Behavioral Sciences, LS100, FAS, Harvard University*
+---
 
 Science communication is not about translating scientific knowledge into simplified take-home messages; it is about connecting with and evoking thoughts about scientific topics in the audience through narrative storytelling. Effective science communication builds understanding, curiosity, and trust in science by linking evidence with human experience. This article outlines a framework for designing and delivering oral presentations that combine narrative structure, visual clarity, and authentic delivery. The key concepts include audience mapping, narrative framing, visual design, and delivery of the talk - emphasizing coherent storytelling without diluting scientific rigor. Although the focus on this article is on oral presentation, the underlying principles—contextual framing, ethical data representation, and emotional resonance—extend to other formats of science communication including posters, written formats such as popular articles or research papers, and audiovisual media. The article concludes with practical checklists and rubrics that support both preparation and reflective evaluation of scientific communication practice.
 

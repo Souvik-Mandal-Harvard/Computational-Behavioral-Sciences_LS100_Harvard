@@ -1,26 +1,34 @@
 ---
-title: Data Careers
+title: Data Careers - Navigating the Evolving Data Landscape
 short_title: Career Guide 01
-subtitle: 'LS100 · Computational Behavioral Sciences'
+subtitle: 'A field guide for students and early-career professionals'
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/Career-Guide01_Data-Careers.pdf
+    output: exports/LS100_Career-Guide01_Data-Careers.pdf
     id: career-pdf
 downloads:
   - id: career-pdf
     title: Download the article (PDF)
 ---
 
-**LS100 Guide**
+*Authored by* **Souvik Mandal, Ph.D.**
 
-**Data Careers: Navigating the Evolving Data Landscape**
+*Project Leader & Instructor, Computational Behavioral Sciences, LS100, FAS, Harvard University* | Linkedin ID: [souvik-mandal-phd](https://www.linkedin.com/in/souvik-mandal-phd)
 
-*A field guide for students and early-career professionals*
+---
 
-Souvik Mandal, Ph.D., [Linkedin ID: souvik-mandal-phd](https://www.linkedin.com/in/souvik-mandal-phd)
+Quantifying behavior from video, audio, and digital records is exactly the skill set that powers modern research labs. Students who enjoy this work often head toward research-facing roles as below:
 
-*Project Leader & Instructor, Computational Behavioral Sciences, LS100, FAS, Harvard University*
+  - **Research Data Scientist —** applies the same modeling and statistics inside universities, hospitals, and research institutes.
+
+  - **Computational ethologist / quantitative behavioral scientist —** uses pose estimation and machine learning to study animal and human behavior at scale.
+
+  - **Bioinformatician / computational biologist —** applies pipelines and statistics to biological and neural data.
+
+  - **Research software engineer / lab data manager —** builds and maintains the reproducible tools and datasets a lab depends on.
+
+These paths reward exactly what LS100 emphasizes — reproducibility, sound statistics, and domain understanding — and they are common stepping stones to graduate study in computational biology, neuroscience, or data science. However, the same computational skills open doors well beyond research in academia, and this article focuses on such career options.
 
 Data is the core raw material of most modern businesses, driving operational efficiency, product innovation, and strategic decision-making. As a result, the ecosystem of data-focused professions has grown rapidly and become highly specialized. The recent rise of generative and agentic AI is reshaping it again. This guide helps college students and early-career professionals understand the distinctions between these roles, the technical proficiencies each requires, and where the field is heading in my opinion. It also shows how the skills you build in LS100 map onto these careers and how to present them on your CV and résumé.
 
@@ -36,47 +44,51 @@ To understand where specific jobs fit, it helps to look at the industry data pip
 
 In a hyper-connected digital economy, almost every business service, production line, and retail purchase happens over or interacts with the internet, generating massive, distinct streams of raw data. Every click, scrolling, transaction, and sensor reading adds to this data.
 
-  - **Everything runs over the internet —** services, manufacturing and IoT-instrumented production lines, and retail / e-commerce all leave digital traces.
+  - **Everything runs over the internet** — services, manufacturing and IoT-instrumented production lines, and retail / e-commerce - all leave digital traces.
 
-  - **Different sectors, different data —** finance (transactions, risk signals), healthcare (electronic health records, wearables, medical imaging), and entertainment (streaming and viewing behavior) each produce their own data types.
+  - **Different sectors, different data:** finance (transactions, risk signals), healthcare (electronic health records, wearables, medical imaging), and entertainment (streaming and viewing behavior) each produce some common types as well as their unique types of data.
 
-  - **Customer interaction and history —** clickstreams, searches, support tickets, and CRM records accumulate into rich behavioral profiles.
+  - **Customer interaction and history** like clickstreams, searches, support tickets, and CRM records - accumulate into rich behavioral profiles.
 
-  - **Data as wealth —** much of the last two decades' largest technology-sector wealth creation (Google, Meta, Apple, Microsoft, Amazon) was built on collecting and monetizing user data.
+  - **Data as wealth:** Much of the last two decades' largest technology-sector wealth creation (Google, Meta, Apple, Microsoft, Amazon) was built on collecting and monetizing user data.
 
-  - **Internal and operational data —** application logs, sensor telemetry, and finance / HR systems are data sources in their own right.
-
-**In this course:** If you have recorded video and/or audio of human or animal subjects, you have produced raw behavioral data. Choosing the frame rate, microphone placement, and annotation schema are all data-production decisions.
+  - **Internal and operational data** like application logs, sensor telemetry, and finance / HR systems are data sources in their own right.
 
 **Associated roles:** *Software Engineers, Application Developers, IoT / Embedded Systems Engineers.*
 
+:::{tip} **In this course** 
+If you have recorded video and/or audio of human or animal subjects, you have produced raw behavioral data. Choosing the frame rate, microphone placement, and annotation schema are all data-production decisions.
+:::
+
 ### Data Storage
 
-Once data is produced, it must be housed safely, reliably, and at scale. Organizations manage this through physical or virtual repositories, increasingly in the cloud. How data is stored and how quickly it can be retrieved shapes everything downstream, from the queries an analyst can run to the models an engineer can train. Good storage design also protects sensitive data and keeps it recoverable after failures.
+Once data is produced, it must be housed safely, reliably, and at scale. Organizations manage this through physical or virtual repositories, increasingly in the cloud. How data is stored and how quickly it can be retrieved shapes everything downstream, from the queries an analyst can run to the models an engineer can train. A good storage design starts with the decision of:
 
-  - > **Databases vs. warehouses vs. lakes:** Different data storage systems, or databases, are used to store different types of data.
-    
-      - > Operational Databases (OLTP): The main architecture used to store “live”, day-to-day operations and actions data (like orders or transactions, represented as numbers and short text) is Online Transaction Processing (OLTP). These data are structured on strictly pre-defined schema and stored in a table format, typically the columns representing fields and rows representing records (customer, transaction, etc.). These systems manage real-time business transactions. Examples of commercial vendors include PostgreSQL, MySQL, Microsoft SQL Server, Oracle DB, etc.
-    
-      - > Data Warehouses (OLAP): Along with facilitating the operation, these raw data are also periodically extracted, transformed, and loaded (ETL) into Online Analytical Processing (OLAP) systems. A Data Warehouse is an OLAP system optimized specifically for high-performance analytical queries and business intelligence. Examples of commercial vendors include Snowflake, Google BigQuery, and Amazon Redshift.
-    
-      - > Data Lakes: When organizations need to store massive volumes of raw, unstructured, or semi-structured data, traditional rigid tables fail. This includes media assets like video and music files for streaming services (such as Netflix or Spotify), or raw files for cloud storage services like Google Drive and Dropbox. A data lake stores these files in their native, raw formats without forcing a predefined schema. Examples of commercial vendors include Amazon S3, Google Cloud Storage, Azure Blob Storage, and Apache Hadoop.
-    
-      - > Data Lakehouses: This modern paradigm represents a convergence of engineering disciplines. A data lakehouse implements data warehouse management features (like ACID transactions, data versioning, and query optimization) directly on top of the low-cost, flexible storage of a data lake, allowing data scientists and analysts to query raw media and structured logs in the same environment. Examples of commercial vendors include Databricks (utilizing Delta Lake) and Snowflake (via Apache Iceberg integration).
-    
-      - > **In this course:**.
+  - **Formats and structure —** Different types of data are stored most eficiently in different types of file formats and databases (see the note below).
 
-  - **Formats and structure —** structured tables, semi-structured JSON, and efficient columnar formats such as Parquet each suit different needs.
+  - **Security, governance, and backup —** stored data must be access-controlled, encrypted, and recoverable after failures.
 
-  - **Security, governance, and backup —** stored data must be access-controlled, encrypted, and recoverable.
-
-**In this course**, you may have uploaded raw audio or video files into a cloud drive or shared directory. You have also automated data formatting and naming data files following a schema, organized data into clearly labeled folders, saved feature tables as CSV files, chose appropriate file formats, and wrote a data-management plan – these are all data storage practices in miniature. Understanding whether data is structured (tables) or unstructured (media files) determines which database architecture you will select in the workforce.
+:::{note} **Databases vs. warehouses vs. lakes:**
+Different data storage systems, or databases, are used to store different types of data.
+    
+- Operational Databases (OLTP): The main architecture used to store “live”, day-to-day operations and actions data (like orders or transactions, represented as numbers and short text) is Online Transaction Processing (OLTP). These data are structured on strictly pre-defined schema and stored in a table format, typically the columns representing fields and rows representing records (customer, transaction, etc.). These systems manage real-time business transactions. Examples of commercial vendors include PostgreSQL, MySQL, Microsoft SQL Server, Oracle DB, etc.
+    
+- Data Warehouses (OLAP): Along with facilitating the operation, these raw data are also periodically extracted, transformed, and loaded (ETL) into Online Analytical Processing (OLAP) systems. A Data Warehouse is an OLAP system optimized specifically for high-performance analytical queries and business intelligence. Examples of commercial vendors include Snowflake, Google BigQuery, and Amazon Redshift.
+    
+- Data Lakes: When organizations need to store massive volumes of raw, unstructured, or semi-structured data, traditional rigid tables fail. This includes media assets like video and music files for streaming services (such as Netflix or Spotify), or raw files for cloud storage services like Google Drive and Dropbox. A data lake stores these files in their native, raw formats without forcing a predefined schema. Examples of commercial vendors include Amazon S3, Google Cloud Storage, Azure Blob Storage, and Apache Hadoop.
+    
+- Data Lakehouses: This modern paradigm represents a convergence of engineering disciplines. A data lakehouse implements data warehouse management features (like ACID transactions, data versioning, and query optimization) directly on top of the low-cost, flexible storage of a data lake, allowing data scientists and analysts to query raw media and structured logs in the same environment. Examples of commercial vendors include Databricks (utilizing Delta Lake) and Snowflake (via Apache Iceberg integration).
+:::
 
 **Associated roles:** *Data Engineers, Database Administrators (DBAs), Data Architects.*
 
+:::{tip} **In this course:**
+You may have uploaded raw audio or video files into a cloud drive or shared directory. You have also automated data formatting and naming data files following a schema, organized data into clearly labeled folders, saved feature tables as CSV files, chose appropriate file formats, and wrote a data-management plan – these are all data storage practices in miniature. Understanding whether data is structured (tables) or unstructured (media files) determines which database architecture you will select in the workforce.
+:::
+
 ### Data Consumption
 
-Data consumption is where raw assets are turned into tangible value. This is the stage most students will work in first, and it splits into three escalating activities — processing the data, reporting on it, and predicting from it. Each step extracts more value, and each maps to a familiar part of this course.
+Data consumption is where raw assets are turned into tangible value. This is the stage most students will work first, and it splits into three escalating activities — processing the data, reporting on it, and predicting from it. Each step extracts more value, and each maps to a familiar part of this course.
 
   - **Processing —** raw data is cleaned, transformed, and turned into features (for example, extracting pose keypoints or audio features and engineering kinematic metrics).
 
@@ -84,15 +96,18 @@ Data consumption is where raw assets are turned into tangible value. This is the
 
   - **Prediction —** statistical and machine-learning models forecast or classify (for example, classifying behaviors from pose sequences or modeling repeated-measures data).
 
-**In this course:** consumption is most of LS100 — Modules 01A/01B handle processing and feature extraction, Notebook 03 covers reporting and visualization, and Module 02 covers statistics and prediction.
 
 **Associated roles:** *Data Analysts, Data Scientists, ML Engineers, AI Engineers, Analytics Engineers.*
+
+:::{tip} **In this course:**
+consumption is most of LS100 — Modules 01A/01B handle processing and feature extraction, Notebook 03 covers reporting and visualization, and Module 02 covers statistics and prediction.
+:::
 
 ## Data Roles, From the Consumer End to the Infrastructure End
 
 The roles below are ordered the way you are most likely to encounter them in your own journey: starting at the consumption that you already relate to — analysts who interpret historical data and scientists who predict from it — and moving upstream toward the engineers, administrators, and architects who build and govern the systems.
 
-### 1. Data Analyst
+### Data Analyst
 
 Data Analysts are the translators between technical data repositories and business stakeholders. Their primary objective is to evaluate past and current performance to uncover actionable insights, answering specific business questions with descriptive and diagnostic analytics.
 
@@ -102,7 +117,7 @@ Data Analysts are the translators between technical data repositories and busine
 
 **Key Tools:** SQL, Excel, Tableau, Power BI, Python (Pandas, NumPy), R.
 
-### 2. Data Scientist
+### Data Scientist
 
 Data Scientists leverage advanced mathematics, statistics, and machine learning to build predictive models and algorithms. While analysts focus on what happened, data scientists focus on predicting what will happen and on optimizing complex processes.
 
@@ -112,7 +127,7 @@ Data Scientists leverage advanced mathematics, statistics, and machine learning 
 
 **Key Tools:** Python, R, SQL, scikit-learn, TensorFlow, PyTorch, Jupyter, Git.
 
-### 3. Machine Learning (ML) Engineer
+### Machine Learning (ML) Engineer
 
 Machine Learning Engineers sit at the intersection of data science and software engineering. Their focus is taking the models developed by data scientists and deploying, scaling, and maintaining them reliably in production.
 
@@ -122,7 +137,7 @@ Machine Learning Engineers sit at the intersection of data science and software 
 
 **Key Tools:** Python, Docker, Kubernetes, MLflow, Kubeflow, cloud AI platforms (AWS SageMaker, Google Vertex AI), CI/CD pipelines.
 
-### 4. AI / Generative AI Engineer
+### AI / Generative AI Engineer
 
 AI Engineers build applications on top of large pre-trained foundation models rather than training models from scratch. Where a data scientist asks “what will happen,” an AI engineer asks “how do I turn a powerful model into a reliable product feature?” It is the fastest-growing data role of the mid-2020s, with demand and salaries rising sharply as companies race to ship AI features.
 
@@ -132,7 +147,7 @@ AI Engineers build applications on top of large pre-trained foundation models ra
 
 **Key Tools:** Python, LLM APIs (OpenAI, Anthropic, open-weight models), LangChain / LlamaIndex / LangGraph, vector databases (Pinecone, Weaviate, FAISS, pgvector), Hugging Face, Docker.
 
-### 5. Analytics Engineer
+### Analytics Engineer
 
 A relatively modern role, the Analytics Engineer bridges data engineering and data analysis. They apply software-engineering best practices — version control, testing, modularity — to the transformation layer, ensuring clean, trustworthy datasets are available to end-users.
 
@@ -142,7 +157,7 @@ A relatively modern role, the Analytics Engineer bridges data engineering and da
 
 **Key Tools:** SQL, dbt, Git, Snowflake, Databricks, BigQuery.
 
-### 6. Data Engineer
+### Data Engineer
 
 Data Engineers design, construct, and maintain the foundational infrastructure that lets data flow seamlessly through an organization. They build the pipelines and architectures that keep data clean, reliable, and accessible to analysts and scientists.
 
@@ -152,7 +167,7 @@ Data Engineers design, construct, and maintain the foundational infrastructure t
 
 **Key Tools:** SQL, Python, Scala, Apache Spark, Apache Kafka, Airflow, Snowflake, BigQuery, AWS/GCP data tools.
 
-### 7. Database Administrator (DBA)
+### Database Administrator (DBA)
 
 Database Administrators focus on the operational health, security, and performance of database management systems. While engineers move data around, DBAs keep the central databases stable, responsive, and secure.
 
@@ -162,7 +177,7 @@ Database Administrators focus on the operational health, security, and performan
 
 **Key Tools:** Oracle DB, Microsoft SQL Server, PostgreSQL, MySQL, Linux/Unix scripting.
 
-### 8. Data Architect
+### Data Architect
 
 Data Architects are senior strategists who design the overarching blueprint for an organization's entire data-management framework. They define how data is collected, integrated, protected, and maintained across the corporate infrastructure.
 
@@ -273,19 +288,3 @@ The work you do in LS100 is genuine, portfolio-grade data experience — you col
   - **ML / AI Engineer —** reproducible pipelines, model training, and object-oriented code (Modules 01A/01B and the classes notebook).
 
   - **Data / Analytics Engineer —** data wrangling, automation, and careful file/format handling (Notebooks 02 and 04).
-
-## Data Careers in Research and Academia
-
-> ***LS100 is a research course, and the same computational skills open doors well beyond industry data teams.***
-
-Quantifying behavior from video, audio, and digital records is exactly the skill set that powers modern research labs. Students who enjoy this work often head toward research-facing roles rather than (or before) industry:
-
-  - **Research Data Scientist —** applies the same modeling and statistics inside universities, hospitals, and research institutes.
-
-  - **Computational ethologist / quantitative behavioral scientist —** uses pose estimation and machine learning to study animal and human behavior at scale.
-
-  - **Bioinformatician / computational biologist —** applies pipelines and statistics to biological and neural data.
-
-  - **Research software engineer / lab data manager —** builds and maintains the reproducible tools and datasets a lab depends on.
-
-These paths reward exactly what LS100 emphasizes — reproducibility, sound statistics, and domain understanding — and they are common stepping stones to graduate study in computational biology, neuroscience, or data science.
