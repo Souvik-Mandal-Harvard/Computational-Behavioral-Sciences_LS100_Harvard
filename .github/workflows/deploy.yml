@@ -43,6 +43,10 @@ jobs:
         run: myst build --pdf
         # Non-fatal: if a guide PDF fails, the site still ships.
         continue-on-error: true
+      - name: Stamp source URL on guide PDFs (vertical, left margin)
+        run: |
+          python3 -m pip install --quiet pypdf reportlab pyyaml
+          PDF_SOURCE_BASE="https://souvikmandal.info${BASE_URL}" python3 scripts/stamp_pdf_source.py .
       - name: Build HTML site
         run: myst build --html
 
