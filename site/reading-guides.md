@@ -30,4 +30,4 @@ can read in the browser and download as a PDF.
 
 ## Careers
 
-- [Career Guide 01 — Data Careers](about.md) — roles in the data landscape and how course skills map onto them.
+- [Career Guide 01 — Data Careers](../Career-Guide01_Data-Careers.md) — roles in the data landscape and how course skills map onto them.

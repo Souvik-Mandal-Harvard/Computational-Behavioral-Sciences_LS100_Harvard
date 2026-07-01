@@ -41,21 +41,22 @@ def build_pdf_url_map():
     except Exception:
         return {}
     m = {}
-    def walk(items):
+    def walk(items, module_url):
         for it in items or []:
             f = it.get("file")
             children = it.get("children", [])
+            child_module = module_url
             if f and os.path.basename(f).startswith("Module-"):
-                mod_url = f"{BASE}/{slug(f)}/"
-                for c in children:
-                    cf = c.get("file")
-                    if cf and cf.endswith(".md") and os.path.exists(cf):
-                        for e in frontmatter(cf).get("exports", []):
-                            out = e.get("output")
-                            if out:
-                                m[os.path.basename(out)] = mod_url
-            walk(children)
-    walk(cfg.get("project", {}).get("toc", []))
+                child_module = f"{BASE}/{slug(f)}/"      # a module overview page
+            elif f and f.endswith(".md") and not f.startswith("site/") and os.path.exists(f):
+                # a guide: module children -> module URL; top-level guides -> own URL
+                target = module_url or f"{BASE}/{slug(f)}/"
+                for e in frontmatter(f).get("exports", []):
+                    out = e.get("output")
+                    if out:
+                        m[os.path.basename(out)] = target
+            walk(children, child_module)
+    walk(cfg.get("project", {}).get("toc", []), None)
     return m
 
 def module_url_from_folder(pdf):

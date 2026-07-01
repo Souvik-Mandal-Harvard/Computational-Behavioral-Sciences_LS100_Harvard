@@ -5,7 +5,7 @@ subtitle: 'LS100 · Computational Behavioral Sciences'
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_Career-Guide01_Data-Careers_LastUpdated-20260615.pdf
+    output: exports/Career-Guide01_Data-Careers.pdf
     id: career-pdf
 downloads:
   - id: career-pdf

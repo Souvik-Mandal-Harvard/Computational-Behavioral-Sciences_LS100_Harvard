@@ -46,6 +46,8 @@ project:
         - file: LS100_03_Communication-and-Presentation/Module-03_Communication-and-Presentation.md
           children:
             - file: LS100_03_Communication-and-Presentation/LS100_Research-Guide02_Art-of-Communicating-Science_LastUpdated-20251108.md
+    - file: Career-Guide01_Data-Careers.md
+      title: Career Guide — Data Careers
     - file: site/reading-guides.md
     - file: site/project-ideas.md
     - file: site/curriculum.md
