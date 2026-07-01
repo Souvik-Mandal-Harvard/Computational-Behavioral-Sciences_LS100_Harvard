@@ -10,7 +10,7 @@ From the physics of digital sound to AI-assisted feature extraction and clusteri
 
 After this module you can turn audio into features and embeddings, batch-process folders of files, and cluster sounds.
 
-## In this module
+## Content in this module
 
 :::{toc}
 :context: children

@@ -10,7 +10,7 @@ An end-to-end pipeline that turns raw video into quantified, classifiable behavi
 
 After this module you can extract body keypoints from video, compute kinematic features, and train a behavior classifier.
 
-## In this module
+## Content in this module
 
 :::{toc}
 :context: children

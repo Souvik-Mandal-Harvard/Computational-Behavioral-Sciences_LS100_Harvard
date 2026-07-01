@@ -10,7 +10,7 @@ How to turn an interest into a researchable question and a credible proposal. Th
 
 After this module you can frame a behavior question as testable research questions with measures, analyses, and planned figures.
 
-## In this module
+## Content in this module
 
 :::{toc}
 :context: children

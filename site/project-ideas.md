@@ -36,6 +36,6 @@ trends or economic indicators.
 ## How to scope your own
 
 A good project is answerable with the data and time you have, and meaningful to the field. Use
-[Research Guide 01](../LS100_00A_Research-Plans-And-Proposals/index.md) to turn your interest into
+[Research Guide 01](../LS100_00A_Research-Plans-And-Proposals/Module-00A_Research-Plans-And-Proposals.md) to turn your interest into
 two primary research questions and one backup, each tied to a measure, an analysis, and a planned
 figure.

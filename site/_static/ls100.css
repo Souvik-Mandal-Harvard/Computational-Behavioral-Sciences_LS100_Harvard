@@ -38,3 +38,6 @@ button[aria-label="primary"] {
 
 /* Cards: subtle crimson on hover */
 .card:hover { border-color: var(--ls100-crimson); }
+
+/* Author byline: prefix the author name with a label */
+.myst-fm-author-name::before { content: "Author: "; font-weight: 600; }

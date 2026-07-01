@@ -10,7 +10,7 @@ Notebooks for analyzing your processed data, plus reference guides for choosing 
 
 After this module you can choose an appropriate statistical test, run it, and interpret the result (including mixed-effects models for repeated-measures data).
 
-## In this module
+## Content in this module
 
 :::{toc}
 :context: children

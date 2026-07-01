@@ -11,7 +11,7 @@ three in its download panel. Pick whichever fits your situation.
 
 Best if you want to work offline on your own machine and keep your files locally.
 
-1. Install Python — see [Computation Guide 01 · Getting Started with Python](../LS100_00B_Python-Fundamentals/index.md).
+1. Install Python — see [Computation Guide 01 · Getting Started with Python](../LS100_00B_Python-Fundamentals/Module-00B_Python-Fundamentals.md).
 2. Install the course dependencies:
    ```bash
    pip install -r requirements.txt

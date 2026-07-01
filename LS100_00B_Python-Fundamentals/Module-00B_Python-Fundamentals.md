@@ -10,7 +10,7 @@ A self-contained, five-notebook path from basic Python syntax to object-oriented
 
 After this module you can read and write Python for data work — variables, pandas/NumPy, plotting, comprehensions, and classes.
 
-## In this module
+## Content in this module
 
 :::{toc}
 :context: children

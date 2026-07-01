@@ -9,24 +9,24 @@ can read in the browser and download as a PDF.
 
 ## Frame your study
 
-- [Research Guide 01 — Writing Research Plans and Proposals](../LS100_00A_Research-Plans-And-Proposals/index.md)
+- [Research Guide 01 — Writing Research Plans and Proposals](../LS100_00A_Research-Plans-And-Proposals/Module-00A_Research-Plans-And-Proposals.md)
 
 ## Build Python fluency
 
-- [Computation Guide 01 — Getting Started with Python](../LS100_00B_Python-Fundamentals/index.md)
-- [Computation Guide 02 — Essential Python Terminologies and Concepts](../LS100_00B_Python-Fundamentals/index.md)
+- [Computation Guide 01 — Getting Started with Python](../LS100_00B_Python-Fundamentals/Module-00B_Python-Fundamentals.md)
+- [Computation Guide 02 — Essential Python Terminologies and Concepts](../LS100_00B_Python-Fundamentals/Module-00B_Python-Fundamentals.md)
 
 ## Work with your data
 
-- [Introduction to Digital Audio in Python](../LS100_01B_Audio-Data/index.md)
+- [Introduction to Digital Audio in Python](../LS100_01B_Audio-Data/Module-01B_Audio-Data.md)
 
 ## Analyze your outcomes
 
-- [A Navigational Guide to Statistical Methods](../LS100_02_Data-Science_Stats/index.md) — plus the test-selection decision-tree poster.
+- [A Navigational Guide to Statistical Methods](../LS100_02_Data-Science_Stats/Module-02_Data-Science-and-Statistics.md) — plus the test-selection decision-tree poster.
 
 ## Communicate your findings
 
-- [Research Guide 02 — The Art of Communicating Science](../LS100_03_Communication-and-Presentation/index.md)
+- [Research Guide 02 — The Art of Communicating Science](../LS100_03_Communication-and-Presentation/Module-03_Communication-and-Presentation.md)
 
 ## Careers
 

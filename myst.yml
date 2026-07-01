@@ -7,10 +7,10 @@ project:
     A research-based Harvard course on quantifying the behavior of humans and other
     animals using Python, computer vision, audio analysis, and statistics.
   authors:
-    - name: Souvik Mandal
+    - name: Souvik Mandal, Ph.D.
       affiliations:
-        - Harvard University
-      url: https://souvikmandal.info
+        - Project Leader & Instructor, LS100, FAS, Harvard University
+      url: https://www.linkedin.com/in/souvik-mandal-phd
   github: https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard
   license:
     content: CC-BY-NC-4.0
@@ -24,27 +24,28 @@ project:
     - file: site/how-to-run.md
     - title: Modules
       children:
-        - file: LS100_00A_Research-Plans-And-Proposals/index.md
+        - file: LS100_00A_Research-Plans-And-Proposals/Module-00A_Research-Plans-And-Proposals.md
           children:
-            - pattern: 'LS100_00A_Research-Plans-And-Proposals/*.md'
-        - file: LS100_00B_Python-Fundamentals/index.md
+            - file: LS100_00A_Research-Plans-And-Proposals/LS100_Research-Guide01_Writing-Research-Plans-And-Proposals.md
+        - file: LS100_00B_Python-Fundamentals/Module-00B_Python-Fundamentals.md
           children:
-            - pattern: 'LS100_00B_Python-Fundamentals/*.md'
+            - file: LS100_00B_Python-Fundamentals/LS100_Computation-Guide01_Getting-Started-with-Python_LastUpdated-20260601.md
+            - file: LS100_00B_Python-Fundamentals/LS100_Computation-Guide02_Essential-Python-Terminologies-and-Concepts_LastUpdated-20260110.md
             - pattern: 'LS100_00B_Python-Fundamentals/*.ipynb'
-        - file: LS100_01A_Video-data/index.md
+        - file: LS100_01A_Video-data/Module-01A_Video-Data.md
           children:
             - pattern: 'LS100_01A_Video-data/*.ipynb'
-        - file: LS100_01B_Audio-Data/index.md
+        - file: LS100_01B_Audio-Data/Module-01B_Audio-Data.md
           children:
-            - pattern: 'LS100_01B_Audio-Data/*.md'
+            - file: LS100_01B_Audio-Data/LS100_00_Introduction_to_Digital_Audio_Python_LastUpdated-20260612.md
             - pattern: 'LS100_01B_Audio-Data/*.ipynb'
-        - file: LS100_02_Data-Science_Stats/index.md
+        - file: LS100_02_Data-Science_Stats/Module-02_Data-Science-and-Statistics.md
           children:
-            - pattern: 'LS100_02_Data-Science_Stats/*.md'
+            - file: LS100_02_Data-Science_Stats/LS100_Stats-Guide01_Navigational-Guide-to-Statistical-Methods_LastUpdated-20260616.md
             - pattern: 'LS100_02_Data-Science_Stats/*.ipynb'
-        - file: LS100_03_Communication-and-Presentation/index.md
+        - file: LS100_03_Communication-and-Presentation/Module-03_Communication-and-Presentation.md
           children:
-            - pattern: 'LS100_03_Communication-and-Presentation/*.md'
+            - file: LS100_03_Communication-and-Presentation/LS100_Research-Guide02_Art-of-Communicating-Science_LastUpdated-20251108.md
     - file: site/reading-guides.md
     - file: site/project-ideas.md
     - file: site/curriculum.md
@@ -55,9 +56,9 @@ site:
   options:
     style: site/_static/ls100.css
     hide_outline: false
+  parts:
+    primary_sidebar_footer: site/parts/sidebar-footer.md
   nav: []
   actions:
-    - title: Start Here
-      url: /start-here
     - title: GitHub
       url: https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard

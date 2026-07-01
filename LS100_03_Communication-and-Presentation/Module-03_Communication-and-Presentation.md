@@ -10,7 +10,7 @@ Turning results into a clear scientific story — structuring talks, designing s
 
 After this module you can structure a talk, design clear figures and slides, and present your findings.
 
-## In this module
+## Content in this module
 
 :::{toc}
 :context: children

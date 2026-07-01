@@ -16,7 +16,7 @@ on:
 
 env:
   # Site is served from the /ls100 sub-path of souvikmandal.info
-  BASE_URL: /ls100
+  BASE_URL: /teaching-learning/ls100
 
 permissions:
   contents: read
@@ -55,7 +55,7 @@ jobs:
           publish_branch: main          # ⬅ VERIFY: the branch that serves souvikmandal.info
                                          #    (page repo → Settings → Pages). Change if not "main".
           publish_dir: ./_build/html
-          destination_dir: ls100         # → souvikmandal.info/ls100/
+          destination_dir: teaching-learning/ls100         # → souvikmandal.info/teaching-learning/ls100/
           keep_files: true               # leave the rest of the personal site untouched
 
 # ─────────────────────────────────────────────────────────────────────────────

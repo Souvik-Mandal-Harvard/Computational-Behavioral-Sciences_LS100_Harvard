@@ -2,6 +2,8 @@
 title: 'LS100: Computational Behavioral Sciences'
 short_title: Home
 subtitle: Foundations of Data Science and Applied AI/ML for Conducting Research in Behavioral Sciences
+site:
+  hide_toc: false
 ---
 
 Learn to quantify the behavior of humans and other animals — movement, vocalizations, and
@@ -42,32 +44,32 @@ By the end you will be able to:
 ::::{grid} 1 1 2 2
 
 :::{card} 00A · Research Plans & Proposals
-:link: ../LS100_00A_Research-Plans-And-Proposals/index.md
+:link: ../LS100_00A_Research-Plans-And-Proposals/Module-00A_Research-Plans-And-Proposals.md
 Turn an interest into a researchable question.
 :::
 
 :::{card} 00B · Python Fundamentals
-:link: ../LS100_00B_Python-Fundamentals/index.md
+:link: ../LS100_00B_Python-Fundamentals/Module-00B_Python-Fundamentals.md
 From variables to object-oriented design, for research.
 :::
 
 :::{card} 01A · Video Data
-:link: ../LS100_01A_Video-data/index.md
+:link: ../LS100_01A_Video-data/Module-01A_Video-Data.md
 Video → pose → kinematics → behavior classification.
 :::
 
 :::{card} 01B · Audio Data
-:link: ../LS100_01B_Audio-Data/index.md
+:link: ../LS100_01B_Audio-Data/Module-01B_Audio-Data.md
 Digital sound → features → clustering.
 :::
 
 :::{card} 02 · Data Science & Statistics
-:link: ../LS100_02_Data-Science_Stats/index.md
+:link: ../LS100_02_Data-Science_Stats/Module-02_Data-Science-and-Statistics.md
 Choose and run the right statistical test.
 :::
 
 :::{card} 03 · Communication & Presentation
-:link: ../LS100_03_Communication-and-Presentation/index.md
+:link: ../LS100_03_Communication-and-Presentation/Module-03_Communication-and-Presentation.md
 Turn results into a clear scientific story.
 :::
 
