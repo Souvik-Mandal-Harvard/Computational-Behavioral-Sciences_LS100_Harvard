@@ -2,7 +2,7 @@
 #
 # ── ACTIVE: Option B — serve at souvikmandal.info/ls100/ ──────────────────────
 #   On every push to main, this builds the HTML in the cloud and pushes it into
-#   the `page` repo under /ls100. The course repo's own GitHub Pages is NOT used.
+#   the `page` repo under /teaching-learning/ls100 (clean-replaced each deploy).
 #   Requires a deploy secret: PAGE_REPO_DEPLOY_KEY (see the deployment runbook).
 #
 #   To fall back to Option A (publish to THIS repo's own GitHub Pages, no secret),
@@ -56,17 +56,29 @@ jobs:
       - name: Build HTML site
         run: myst build --html
 
-      # Publish the built HTML into the page repo's /ls100 folder.
-      - name: Deploy into page repo /ls100
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          deploy_key: ${{ secrets.PAGE_REPO_DEPLOY_KEY }}
-          external_repository: Souvik-Mandal-Harvard/page
-          publish_branch: main          # ⬅ VERIFY: the branch that serves souvikmandal.info
-                                         #    (page repo → Settings → Pages). Change if not "main".
-          publish_dir: ./_build/html
-          destination_dir: teaching-learning/ls100         # → souvikmandal.info/teaching-learning/ls100/
-          keep_files: true               # leave the rest of the personal site untouched
+      # Publish into the page repo, REPLACING teaching-learning/ls100 cleanly each
+      # time (so renamed pages don't accumulate as orphans) while leaving the rest
+      # of the personal site untouched. Serves at souvikmandal.info/teaching-learning/ls100/
+      - name: Deploy into page repo /teaching-learning/ls100
+        env:
+          DEPLOY_KEY: ${{ secrets.PAGE_REPO_DEPLOY_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          export GIT_SSH_COMMAND="ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no"
+          git clone --depth 1 --branch main git@github.com:Souvik-Mandal-Harvard/page.git page_repo
+          rm -rf page_repo/teaching-learning/ls100
+          mkdir -p page_repo/teaching-learning/ls100
+          cp -a _build/html/. page_repo/teaching-learning/ls100/
+          touch page_repo/.nojekyll
+          cd page_repo
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Deploy LS100 site ($(date -u +%FT%TZ))" || { echo "No changes to deploy"; exit 0; }
+          git push origin main
 
 # ─────────────────────────────────────────────────────────────────────────────
 # OPTION A (fallback) — publish to THIS repo's own GitHub Pages, no secret needed.
