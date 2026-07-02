@@ -13,7 +13,7 @@ downloads:
   - file: images/LS100_module-02_Guide01_diagram_Test-Selection-Decision-Tree_Poster_LastUpdated-20260616.pdf
     title: Decision-tree poster (PDF)
   - file: images/LS100_module-02_Guide01_diagram_Test-Selection-Decision-Tree_LastUpdated-20260616.svg
-    title: Decision-tree (SVG)
+    title: Decision-tree poster (SVG)
 ---
 
 **LS100 READING GUIDE**
