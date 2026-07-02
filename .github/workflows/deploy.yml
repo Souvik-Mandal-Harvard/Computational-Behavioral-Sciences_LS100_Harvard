@@ -30,6 +30,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # full history so "Last updated" dates are correct
       - uses: actions/setup-node@v4
         with:
           node-version: 20.x
@@ -39,6 +41,8 @@ jobs:
         uses: typst-community/setup-typst@v4
 
       # Build PDFs first so the HTML build can attach them as download buttons.
+      - name: Stamp "Last updated" date on articles (from git)
+        run: python3 scripts/inject_last_updated.py .
       - name: Build PDF guides
         run: myst build --pdf
         # Non-fatal: if a guide PDF fails, the site still ships.

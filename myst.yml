@@ -4,13 +4,9 @@ project:
   title: 'LS100: Computational Behavioral Sciences'
   subtitle: Foundations of Data Science and Applied AI/ML for Conducting Research in Behavioral Sciences
   description: >-
-    A research-based Harvard course on quantifying the behavior of humans and other
-    animals using Python, computer vision, audio analysis, and statistics.
-  authors:
-    - name: Souvik Mandal, Ph.D.
-      affiliations:
-        - Project Leader & Instructor, LS100, FAS, Harvard University
-      url: https://www.linkedin.com/in/souvik-mandal-phd
+    A research-based Harvard course on quantifying the behavior of humans and other animals using Python, computer vision, audio analysis, and statistics.
+  # Authors are declared per-file (in each .md / .ipynb) so the byline can differ
+  # per contributor and isn't duplicated by a project-wide author block.
   github: https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard
   license:
     content: CC-BY-NC-4.0
