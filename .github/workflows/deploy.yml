@@ -41,6 +41,8 @@ jobs:
         uses: typst-community/setup-typst@v4
 
       # Build PDFs first so the HTML build can attach them as download buttons.
+      - name: Refresh notebook run-buttons (Colab/Codespaces/Download) from current paths
+        run: python3 scripts/refresh_run_buttons.py .
       - name: Stamp "Last updated" date on articles (from git)
         run: python3 scripts/inject_last_updated.py .
       - name: Build PDF guides
