@@ -50,7 +50,9 @@ project:
     - file: site/about.md
 site:
   template: book-theme
-  title: 'LS100: Computational Behavioral Sciences'
+  # Distinct from the landing page's title so the browser/social-card title
+  # reads "LS100: Computational Behavioral Sciences — <this>" instead of doubling.
+  title: 'Foundations of Data Science & Applied AI/ML for Behavioral Research'
   options:
     style: site/_static/ls100.css
     hide_outline: false
