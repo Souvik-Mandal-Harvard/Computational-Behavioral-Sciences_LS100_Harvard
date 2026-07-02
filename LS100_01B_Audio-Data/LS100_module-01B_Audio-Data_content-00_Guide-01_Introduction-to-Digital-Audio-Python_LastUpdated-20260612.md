@@ -18,7 +18,7 @@ downloads:
 
 ---
 
-## 1. Introduction: The Core Digitization Paradox
+## Introduction: The Core Digitization Paradox
 
 Before we start our research with digital audio data, we should have some fundamental understandings, including how acoustic sound from the physical world is packed into digital formats. Acoustic sound is continuous waves produced by a vibrating object that creates varying amplitudes of the pressure in the medium like air, possessing infinite variation. Digital architectures, on the other hand, are inherently discrete and relies on binary data stored only in 1s and 0s. To bridge this gap, digital audio systems rely on two foundational processes defined by signal processing:
 
@@ -28,19 +28,19 @@ Before we start our research with digital audio data, we should have some fundam
 
 This guide explores the fundamental principles that govern how continuous mechanical vibrations are transformed into precise digital data structures, how complex multi-instrument arrangements are captured via a single stream of numbers, and how those numbers are packed for efficient storage.
 
-## 2. The Physics of Sound and the Transduction Process
+## The Physics of Sound and the Transduction Process
 
 To analyze how digital systems represent sound, we must first define the input signal. Physically, sound is a longitudinal wave propagated through a medium (typically air) via localized variations in pressure. These pressure differentials alternate between phases of **compression** (high particle density) and **rarefaction** (low particle density).
 
 ![Mechanical and electrical transduction of a sound wave](images/LS100_Audio_Figure-1_Sound-and-Transduction.png)
 
-Figure 01: The Mechanical and Electrical Transduction of a Sound Wave. Physically, sound is a longitudinal pressure wave, transduced into a continuous analog electrical signal.
+**Figure 01:** *The Mechanical and Electrical Transduction of a Sound Wave. Physically, sound is a longitudinal pressure wave, transduced into a continuous analog electrical signal.*
 
 When recording audio, an acoustic transducer such as a microphone diaphragm perceives these pressure waves. The physical displacement of the diaphragm mirrors the continuous fluctuations in air pressure, converting mechanical energy into an **analog electrical signal** (voltage).
 
 In this analog state, the voltage waveform is an exact mathematical analogy of the acoustic wave. It is perfectly unbroken and continuous: between any two points in time, there exists an infinite number of intermediate voltage values.
 
-## 3. The Superposition Principle: How Single Data Streams Capture Multi-Faceted Audio
+## The Superposition Principle: How Single Data Streams Capture Multi-Faceted Audio
 
 A common conceptual hurdle when first studying digital audio is understanding how a single, linear stream of binary data can capture an entire range of sound like an ensemble of instruments, such as a bass guitar, a human voice, and a treble cymbal, playing simultaneously. This becomes possible as when multiple sound waves occupy the same physical space, they do not travel as isolated vectors. Instead, their pressure variations combine algebraically into a single, highly complex, composite waveform.
 
@@ -56,7 +56,7 @@ Consider the mathematical behavior of different acoustic registers:
 
 ![Superposition of registers into a composite waveform](images/LS100_Audio_Figure-2_Superposition-Composite-Waveform.png)
 
-Figure 2: The Superposition Principle and Composite Wave Mechanics - Algebraic Summation of Independent Frequencies into a Single Waveform
+**Figure 02:** *The Superposition Principle and Composite Wave Mechanics - Algebraic Summation of Independent Frequencies into a Single Waveform*
 
 When these frequencies converge on a single microphone diaphragm, the microphone registers only one net voltage at any given microsecond. The resulting waveform is jagged and intricate, but it remains a **single, continuous function of time**.
 
@@ -68,7 +68,7 @@ By accurately tracing the single, composite line of changing voltages over time,
 
 Remarkably, the task of separating the bass, the voice, and the cymbal is left entirely to the ultimate digital signal processor: the human auditory cortex.
 
-## 4. Converting the Physical World Sound to Digital Audio Data
+## Converting the Physical World Sound to Digital Audio Data
 
 ### Step 1: Sampling (Temporal Discretization)
 
@@ -110,7 +110,7 @@ If a system uses an insufficient bit depth (such as 8-bit), the amplitude grid l
 
 ![Quantization and bit depth](images/LS100_Audio_Figure-3_Quantization-Bit-Depth.png)
 
-Figure 03: Temporal Discretization and Amplitude Quantization - Comparison of Resolution Grids, Quantization Errors, and Noise Floors.
+**Figure 03:** *Temporal Discretization and Amplitude Quantization - Comparison of Resolution Grids, Quantization Errors, and Noise Floors.*
 
 ### Quantization Error and the Noise Floor
 
@@ -124,13 +124,13 @@ Dynamic Range ≈ 6.02 ⋅ n dB
 
   - A **24-bit** system expands this range to **144 dB**, providing an ultra-low noise floor critical for preventing cumulative noise during multi-track recording and digital signal processing (DSP).
 
-## 6. Data Packaging: Linear PCM vs. Lossy Compression
+## Data Packaging: Linear PCM vs. Lossy Compression
 
 Once audio is sampled and quantized, the data must be formatted for storage and transmission.
 
 ![Audio pipeline: PCM versus lossy encoding](images/LS100_Audio_Figure-4_Audio-Pipeline-PCM-vs-Lossy.png)
 
-Figure 04: The Digital Audio Conversion and Packaging Pipeline - End-to-End Signal Processing and Storage Architecture
+**Figure 04:** *The Digital Audio Conversion and Packaging Pipeline - End-to-End Signal Processing and Storage Architecture*
 
 ### Pulse-Code Modulation (PCM)
 
