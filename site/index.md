@@ -21,8 +21,7 @@ first line of code to a finished research project.
 
 LS100 is a 4-credit, research-based course taught at Harvard University. It teaches you to
 conduct research that requires quantifying behavior, using automation, data science, and AI/ML
-methods. The materials are self-sufficient: they guide you from identifying a research question,
-to framing testable hypotheses, to using Python to collect, process, and analyze data, to
+methods. The materials are self-sufficient: they guide you from identifying a research question, to framing testable hypotheses, to using Python to collect, process, and analyze data, to
 communicating your findings.
 
 ## What you'll learn

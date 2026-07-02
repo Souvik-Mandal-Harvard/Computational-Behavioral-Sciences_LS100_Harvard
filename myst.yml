@@ -22,27 +22,27 @@ project:
       children:
         - file: LS100_00A_Research-Plans-And-Proposals/Module-00A_Research-Plans-And-Proposals.md
           children:
-            - file: LS100_00A_Research-Plans-And-Proposals/LS100_Research-Guide01_Writing-Research-Plans-And-Proposals.md
+            - file: LS100_00A_Research-Plans-And-Proposals/LS100_module-00A_Research_content-01_Guide-01_Writing-Research-Plans-And-Proposals.md
         - file: LS100_00B_Python-Fundamentals/Module-00B_Python-Fundamentals.md
           children:
-            - file: LS100_00B_Python-Fundamentals/LS100_Computation-Guide01_Getting-Started-with-Python_LastUpdated-20260601.md
-            - file: LS100_00B_Python-Fundamentals/LS100_Computation-Guide02_Essential-Python-Terminologies-and-Concepts_LastUpdated-20260110.md
+            - file: LS100_00B_Python-Fundamentals/LS100_module-00B_content-01_Guide-01_Getting-Started-with-Python_LastUpdated-20260601.md
+            - file: LS100_00B_Python-Fundamentals/LS100_module-00B_content-02_Guide-02_Essential-Python-Terminologies-and-Concepts_LastUpdated-20260110.md
             - pattern: 'LS100_00B_Python-Fundamentals/*.ipynb'
         - file: LS100_01A_Video-data/Module-01A_Video-Data.md
           children:
             - pattern: 'LS100_01A_Video-data/*.ipynb'
         - file: LS100_01B_Audio-Data/Module-01B_Audio-Data.md
           children:
-            - file: LS100_01B_Audio-Data/LS100_00_Introduction_to_Digital_Audio_Python_LastUpdated-20260612.md
+            - file: LS100_01B_Audio-Data/LS100_module-01B_Audio-Data_content-00_Guide-01_Introduction-to-Digital-Audio-Python_LastUpdated-20260612.md
             - pattern: 'LS100_01B_Audio-Data/*.ipynb'
         - file: LS100_02_Data-Science_Stats/Module-02_Data-Science-and-Statistics.md
           children:
-            - file: LS100_02_Data-Science_Stats/LS100_Stats-Guide01_Navigational-Guide-to-Statistical-Methods_LastUpdated-20260616.md
+            - file: LS100_02_Data-Science_Stats/LS100_module-02_content-01_Guide01_Navigational-Guide-to-Statistical-Methods_LastUpdated-20260616.md
             - pattern: 'LS100_02_Data-Science_Stats/*.ipynb'
         - file: LS100_03_Communication-and-Presentation/Module-03_Communication-and-Presentation.md
           children:
-            - file: LS100_03_Communication-and-Presentation/LS100_Research-Guide02_Art-of-Communicating-Science_LastUpdated-20251108.md
-    - file: Career-Guide01_Data-Careers.md
+            - file: LS100_03_Communication-and-Presentation/LS100_module-03_Research_Content01_Guide01_Art-of-Communicating-Science_LastUpdated-20251108.md
+    - file: LS100_Career-Guide01_Data-Careers.md
       title: Career Guide — Data Careers
     - file: site/reading-guides.md
     - file: site/project-ideas.md

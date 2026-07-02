@@ -34,11 +34,11 @@ No prior programming experience is required. Module `LS100_00B_Python-Fundamenta
 ---
 
 ## Getting started
-There are primarily two types of materials: reading guides (PDFs) and Python Jupyter notebooks. The materials are to get you started with your research journey, but do not necessarily serve as an end-to-end research project. Learners need to create their own code/ reports/ materials to conduct their own research. To start:
+There are primarily two types of materials: reading guides (`.md` files) and Python Jupyter notebooks (`.ipynb files`). The materials are to get you started with your research journey, but do not necessarily serve as an end-to-end research project. Learners need to create their own code/ reports/ materials to conduct their own research. To start:
 
-1. Open **`LS100_00A_Research-Plans-And-Proposals` → Research Guide 01** to understand how to frame research plans and research proposals.
+1. **Frame the Research Project** The Guide-01 in the folder **`LS100_00A_Research-Plans-And-Proposals` is meant to make you understand how to frame research plans and research proposals. 
 2. Next, read **Computation Guide 01** (in `LS100_00B_Python-Fundamentals`) and set up your Python environment.
-3. If you are new to Python programming, start with **`LS100_00B_Python-Fundamentals`, Notebook 01**, and follow the notebooks in numeric order.
+3. If you are new to Python programming, start with **`Notebook-01_Data-in-Python_Foundation`**, and follow the notebooks in numeric order.
 4. Depending on your data type, choose either the `LS100_01A_Video-data` or the `LS100_01B_Audio-Data` folder, and follow the notebooks in numeric order.
 5. Once you have data ready to analyze, work through the notebooks in `LS100_02_Data-Science_Stats` — and use the **Navigational Guide to Statistical Methods** and the **test-selection decision-tree poster** in that same folder to choose the right test.
 6. The reading guide **Art of Communicating Science** in `LS100_03_Communication-and-Presentation` gives a comprehensive idea of presenting your findings effectively.
@@ -52,12 +52,12 @@ Computational-Behavioral-Sciences_LS100_Harvard/
 ├── LS100_00_Document-00_Module-Description_...pdf   # Course overview
 ├── LS100_00_Document-01_Curriculum_...pdf           # Course curriculum / weekly timeline
 ├── LS100_00A_Research-Plans-And-Proposals/          # Framing research questions and proposals
-├── LS100_00B_Python-Fundamentals/                   # Computation guides + Notebooks 01–05
+├── LS100_00B_Python-Fundamentals/                   # Reading guides + Notebooks 01–05
 ├── LS100_01A_Video-data/                            # Video → pose → kinematics → behavior classification
 ├── LS100_01B_Audio-Data/                            # Digital audio → features → clustering
 ├── LS100_02_Data-Science_Stats/                     # Statistics notebooks + test-selection guide & poster
 ├── LS100_03_Communication-and-Presentation/         # Communicating and presenting science
-├── LS100_Career-Guide01_Data-Careers_...pdf         # Careers in the data landscape
+├── LS100_Career-Guide01_Data-Careers.md             # Careers in the data landscape
 ├── LICENSE
 └── README.md
 ```
@@ -117,7 +117,8 @@ An end‑to‑end pipeline that turns raw video into quantified, classifiable be
 | 02 | Training a Custom YOLO Model | Training a model to track custom keypoints or objects (Label Studio to training pipeline) |
 | 03 | Extracting Joint Angles | Computing joint angles from MediaPipe and YOLO landmarks |
 | 04 | Deriving Indices from Angles | Converting angle time series into biomechanical indices |
-| 05A / 05B | Sequence-Based Classification | Preparing pose sequences and training behavior classification models |
+| 05 | Sequence-Based Classification | Preparing data for training behavior classification models from pose sequences|
+| 05 | Sequence-Based Classification | Training behavior classification models |
 
 ---
 
