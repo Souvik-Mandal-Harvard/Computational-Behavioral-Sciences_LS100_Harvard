@@ -1,11 +1,11 @@
 ---
 subtitle: 'LS100 — Module 00A · Research Plans & Proposals'
-title: Writing Research Plans and Proposals
-short_title: Module 00A · Research Guide 01
+title: Framing Research Plans and Proposals
+short_title: Guide 01 - Research
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_module-00A_Research_content-01_Guide-01_Writing-Research-Plans-And-Proposals_LastUpdated-20260609.pdf
+    output: exports/LS100_module-00A_Research_content-01_Guide-01_Framing-Research-Plans-And-Proposals_LastUpdated-20260609.pdf
     id: rg01-pdf
 downloads:
   - id: rg01-pdf

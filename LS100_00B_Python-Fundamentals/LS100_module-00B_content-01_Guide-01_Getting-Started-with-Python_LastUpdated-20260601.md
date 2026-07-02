@@ -1,7 +1,7 @@
 ---
 subtitle: 'LS100 — Module 00B · Python Fundamentals'
 title: Getting Started with Python - A Beginner’s Guide
-short_title: Computation Guide 01
+short_title: Guide 01 - Getting Started with Python
 exports:
   - format: pdf
     template: lapreprint-typst

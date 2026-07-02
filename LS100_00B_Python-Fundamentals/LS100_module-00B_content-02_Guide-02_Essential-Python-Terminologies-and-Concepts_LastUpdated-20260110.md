@@ -1,7 +1,7 @@
 ---
 subtitle: 'LS100 — Module 00B · Python Fundamentals'
 title: Essential Python Terminologies and Concepts
-short_title: Module 00B Computation Guide 02
+short_title: Guide 02 - Essential Python Terms & Concepts
 exports:
   - format: pdf
     template: lapreprint-typst
