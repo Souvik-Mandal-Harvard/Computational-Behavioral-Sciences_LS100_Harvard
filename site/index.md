@@ -1,28 +1,20 @@
 ---
-title: 'LS100: Computational Behavioral Sciences'
+title: 'Computational Behavioral Sciences'
 short_title: Home
 subtitle: Foundations of Data Science and Applied AI/ML for Conducting Research in Behavioral Sciences
 site:
   hide_toc: false
 ---
 
-Learn to quantify the behavior of humans and other animals — movement, vocalizations, and
-digital traces — using Python, computer vision, audio analysis, and statistics. From your
-first line of code to a finished research project.
-
-**[Start Here →](start-here.md)**  ·  [How to run the notebooks](how-to-run.md)  ·  [View on GitHub](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard)
+Welcome to "Computational Behavioral Sciences", a 4-credit, research-based course that I offer at Harvard University. The course focuses on learning to conduct research that requires quantifying behavior in humans and other animals using automation, data science, and AI/ML methods using Python programming.
+The materials in this website guides from identifying a research question to framing testable hypotheses, using Python programming for collecting, processing, and analyzing data, and effectively communicating scientific findings.
 
 ## The course at a glance
 
 **6 modules** · **~27 notebooks** · **7 reading guides** · **3 ways to run every notebook** ·
 **from zero Python to deep learning and statistics**
 
-## What is this course?
-
-LS100 is a 4-credit, research-based course taught at Harvard University. It teaches you to
-conduct research that requires quantifying behavior, using automation, data science, and AI/ML
-methods. The materials are self-sufficient: they guide you from identifying a research question, to framing testable hypotheses, to using Python to collect, process, and analyze data, to
-communicating your findings.
+Please click the "hamburger" menu button on the top left of this site to explore all modules and other contents. You can also search any topic through the search box.
 
 ## What you'll learn
 
@@ -30,13 +22,25 @@ By the end you will be able to:
 
 - Formulate behavior-related questions as testable scientific hypotheses.
 - Collect and process video, audio, and other digital data.
-- Use and fine-tune open-source AI/ML models (pose estimation, object tracking, audio embeddings) to extract behavioral metrics.
+- Use and fine-tune open-source AI/ML models (for example, models used for pose estimation, object tracking, audio embeddings) to extract behavioral metrics.
 - Apply statistical analyses to validate results.
 - Train classical ML models (supervised and unsupervised) to predict on new data.
 - Communicate findings through visualizations, talks, and written reports.
 - Use large language models responsibly in research workflows.
 
-*No prior programming experience required — Module 00B starts from zero.*
+*No prior programming experience required — Module 00B is meant for learners with zero experience with Python programming.*
+
+## Who this is for
+
+- Students enrolled in LS100, and anyone using computation to make sense of behavior.
+- Learners seeking a data-backed understanding of human or animal movement, vocalization, or behavioral data from sources like health portals and web services.
+- Instructors seeking non-commercial teaching resources in computational ethology and behavioral data science.
+- Expected time commitment: approximately 6–10 hours per week.
+
+**You can**
+- start your learning journey [here](start-here.md)**  
+- view all materials on [ GitHub](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard)
+- and get instructions on how to run the notebooks [here](how-to-run.md).
 
 ## Explore the modules
 
@@ -93,12 +97,6 @@ Best for a full, pre-configured dev environment in the cloud.
 :::
 
 ::::
-
-## Who this is for
-
-- Students enrolled in LS100, and anyone using computation to make sense of behavior.
-- Learners seeking a data-backed understanding of human or animal movement, vocalization, or behavioral data from sources like health portals and web services.
-- Instructors seeking non-commercial teaching resources in computational ethology and behavioral data science.
 
 ---
 
