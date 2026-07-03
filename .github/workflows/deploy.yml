@@ -55,6 +55,8 @@ jobs:
           PDF_SOURCE_BASE="https://souvikmandal.info${BASE_URL}" python3 scripts/stamp_pdf_source.py .
       - name: Build HTML site
         run: myst build --html
+      - name: Make built filenames GitHub-Pages-safe ($ [ ] ( ) -> safe)
+        run: python3 scripts/gh_pages_safe_filenames.py _build/html
 
       # Publish into the page repo, REPLACING teaching-learning/ls100 cleanly each
       # time (so renamed pages don't accumulate as orphans) while leaving the rest
