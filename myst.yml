@@ -1,7 +1,7 @@
 version: 1
 project:
   id: ls100-computational-behavioral-sciences
-  title: 'LS100: Computational Behavioral Sciences'
+  title: 'Computational Behavioral Sciences'
   subtitle: Foundations of Data Science and Applied AI/ML for Conducting Research in Behavioral Sciences
   description: >-
     A research-based Harvard course on quantifying the behavior of humans and other animals using Python, computer vision, audio analysis, and statistics.
@@ -56,7 +56,7 @@ site:
   options:
     style: site/_static/ls100.css
     hide_outline: false
-    logo_text: LS100
+    logo_text: Home
   parts:
     primary_sidebar_footer: site/parts/sidebar-footer.md
   nav: []

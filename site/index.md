@@ -6,18 +6,21 @@ site:
   hide_toc: false
 ---
 
-Welcome to "Computational Behavioral Sciences", a 4-credit, research-based course that I offer at Harvard University. The course focuses on learning to conduct research that requires quantifying behavior in humans and other animals using automation, data science, and AI/ML methods using Python programming.
-The materials in this website guides from identifying a research question to framing testable hypotheses, using Python programming for collecting, processing, and analyzing data, and effectively communicating scientific findings.
+Welcome to "Computational Behavioral Sciences", a 4-credit, research-based course that I offer at [Harvard University](https://www.harvard.edu/). This course focuses on learning to conduct research that requires quantifying behavior in humans and other animals using automation, data science, and AI/ML methods using Python programming.
 
 ## The course at a glance
 
-**6 modules** · **~27 notebooks** · **7 reading guides** · **3 ways to run every notebook** ·
-**from zero Python to deep learning and statistics**
+From the precise movements of animals, or an athlete to the intricate decision-making in animals, humans, and organizations — each represents a form of behavior at a different scale. Understanding and predicting behavior is fundamental to advancing research and innovation across academic disciplines, industry, and businesses. For conducting any objective research, defining and quantifying the target behavior is essential. For such quantification, behavior is defined as a temporal sequence of discrete actions — whether movements, vocalizations, or other measurable signals — occurring in a given context. These quantitative measurements underpin advances in neuroscience, medical sciences, biomechanics, biophysics, biomimetics, ethology and ecology, as well as transformative applications in business, sports, performing arts, and digital media.
+
+**Highlights of the course**
+
+**6 modules** · **~27 notebooks** · **7 reading guides** ·**from zero Python to data science and AI/ML workflow**
 
 Please click the "hamburger" menu button on the top left of this site to explore all modules and other contents. You can also search any topic through the search box.
 
 ## What you'll learn
 
+The courser aims to enable learners to solve real-life problems and answer questions with a research framework.
 By the end you will be able to:
 
 - Formulate behavior-related questions as testable scientific hypotheses.
@@ -38,7 +41,7 @@ By the end you will be able to:
 - Expected time commitment: approximately 6–10 hours per week.
 
 **You can**
-- start your learning journey [here](start-here.md)**  
+- start your learning journey [here](start-here.md)  
 - view all materials on [ GitHub](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard)
 - and get instructions on how to run the notebooks [here](how-to-run.md).
 
