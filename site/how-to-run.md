@@ -7,6 +7,8 @@ description: Three ways to run every LS100 notebook — locally, in Google Colab
 Every notebook in this course can be run three ways. Each notebook page has buttons for all
 three in its download panel. Pick whichever fits your situation.
 
+All the required packages for this course are listed in the [`requirements.txt`](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard/blob/e6db52f269ed08ee6f22c366529b2343d9001bbb/requirements.txt) file. Please download it and keep it in the root directory of your project.
+
 ## 💻 Download and run locally
 
 Best if you want to work offline on your own machine and keep your files locally.

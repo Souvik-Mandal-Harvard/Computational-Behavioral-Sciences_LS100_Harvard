@@ -25,6 +25,7 @@ After this module you can read and write Python for data work — variables, pan
 | 04 | Computational Thinking (DSA and Fluency) | Comprehensions, choosing data structures, Big-O intuition, algorithmic patterns, practice problems |
 | 05 | Classes and Decorators | Object-oriented design, encapsulation, `@property`, `@dataclass` in a study data-management example |
 
+All the required packages for this course are listed in the [`requirements.txt`](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard/blob/e6db52f269ed08ee6f22c366529b2343d9001bbb/requirements.txt) file. Please download it and keep it in the root directory of your project.
 
 ## Content in this module
 
