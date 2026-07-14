@@ -6,7 +6,7 @@ site:
   hide_toc: false
 ---
 
-Welcome to "Computational Behavioral Sciences", a 4-credit, research-based course that I offer at [Harvard University](https://www.harvard.edu/). This course focuses on learning to conduct research that requires quantifying behavior in humans and other animals using automation, data science, and AI/ML methods using Python programming.
+Welcome to "Computational Behavioral Sciences", a 4-credit, research-based project that I lead at [Harvard University](https://www.harvard.edu/). This project is offered as a course focusing on learning to conduct research that requires quantifying behavior in humans and other animals using automation, data science, and AI/ML methods using Python programming.
 
 ## The course at a glance
 
