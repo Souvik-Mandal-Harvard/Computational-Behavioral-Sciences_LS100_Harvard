@@ -1,7 +1,7 @@
 # LS100: Computational Behavioral Sciences
 ### Foundations of Data Science and Applied AI/ML for Conducting Research in Behavioral Sciences
 
-Welcome to the repository for **LS100**, a 4-credit, research-based course "**Computational Behavioral Sciences**" that I teach at Harvard University. The course focuses on learning to conduct research that requires quantifying behavior in humans and other animals using automation, data science, and AI/ML methods.
+Welcome to "Computational Behavioral Sciences", a 4-credit, research-based project that I lead at [Harvard University](https://www.harvard.edu/). This project is offered as a course focusing on learning to conduct research that requires quantifying behavior in humans and other animals using automation, data science, and AI/ML methods using Python programming.
 
 This repository is the student-facing companion to the lectures I deliver during the course. However, I designed the materials in this repo to be self-sufficient, guiding you from **identifying a research question to framing testable hypotheses, using Python programming for collecting, processing, and analyzing data, and effectively communicating scientific findings**.
 
@@ -13,7 +13,7 @@ All content in this repo is open for non‑commercial use; feel free to learn fr
 
 LS100 follows the full research cycle. By the end of the course, you will be able to:
 
-- Formulate behavior-related questions as testable scientific hypotheses.
+- Formulate behavior-related questions as a research framework and testable scientific hypotheses.
 - Collect and process video, audio, and other digital data.
 - Use and fine-tune open-source AI/ML models (for example, pose estimation, object tracking, and audio embeddings) to extract behavioral metrics.
 - Apply statistical analyses to analyze and validate results.

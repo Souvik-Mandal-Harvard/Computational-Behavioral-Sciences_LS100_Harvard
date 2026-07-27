@@ -10,23 +10,23 @@ Welcome to "Computational Behavioral Sciences", a 4-credit, research-based proje
 
 ## The course at a glance
 
-From the precise movements of animals, or an athlete to the intricate decision-making in animals, humans, and organizations — each represents a form of behavior at a different scale. Understanding and predicting behavior is fundamental to advancing research and innovation across academic disciplines, industry, and businesses. For conducting any objective research, defining and quantifying the target behavior is essential. For such quantification, behavior is defined as a temporal sequence of discrete actions — whether movements, vocalizations, or other measurable signals — occurring in a given context. These quantitative measurements underpin advances in neuroscience, medical sciences, biomechanics, biophysics, biomimetics, ethology and ecology, as well as transformative applications in business, sports, performing arts, and digital media.
+From the precise movements of animals or an athlete to the intricate decision-making in animals, humans, and organizations — each represents a form of behavior at different scales. Understanding and predicting behavior is fundamental to advancing research and innovation across academic disciplines, industry, and businesses. For conducting any objective research, defining and quantifying the target behavior is essential. For such quantification, behavior is defined as a temporal sequence of discrete actions — whether movements, vocalizations, or other measurable signals — occurring in a given context. These quantitative measurements underpin advances in neuroscience, medical sciences, biomechanics, biophysics, biomimetics, ethology and ecology, as well as transformative applications in business, sports, performing arts, and digital media.
 
 **Highlights of the course**
 
 **6 modules** · **~27 notebooks** · **7 reading guides** ·**from zero Python to data science and AI/ML workflow**
 
-Please click the "hamburger" menu button on the top left of this site to explore all modules and other contents. You can also search any topic through the search box.
+Please click the "hamburger" menu button on the top left of this site to explore all modules and other content. You can also search for any topic through the search box.
 
 ## What you'll learn
 
-The courser aims to enable learners to solve real-life problems and answer questions with a research framework.
-By the end you will be able to:
+The course aims to enable learners to solve real-life problems and answer questions with a research framework.
+By the end, you will be able to:
 
-- Formulate behavior-related questions as testable scientific hypotheses.
+- Formulate behavior-related questions as a research framework and testable scientific hypotheses.
 - Collect and process video, audio, and other digital data.
 - Use and fine-tune open-source AI/ML models (for example, models used for pose estimation, object tracking, audio embeddings) to extract behavioral metrics.
-- Apply statistical analyses to validate results.
+- Learn case-specific statistical methods and conduct analyses to validate results.
 - Train classical ML models (supervised and unsupervised) to predict on new data.
 - Communicate findings through visualizations, talks, and written reports.
 - Use large language models responsibly in research workflows.
