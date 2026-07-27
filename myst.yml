@@ -30,6 +30,7 @@ project:
             - pattern: 'LS100_00B_Python-Fundamentals/*.ipynb'
         - file: LS100_01A_Video-data/Module-01A_Video-Data.md
           children:
+            - file: LS100_01A_Video-data/LS100_module-01A_Video-Data_content-00_Guide-01_Introduction-to-Digital-Video-Python_LastUpdated-20260726.md
             - pattern: 'LS100_01A_Video-data/*.ipynb'
         - file: LS100_01B_Audio-Data/Module-01B_Audio-Data.md
           children:

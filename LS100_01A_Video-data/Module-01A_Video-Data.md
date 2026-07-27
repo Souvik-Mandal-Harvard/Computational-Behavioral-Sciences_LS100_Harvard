@@ -12,6 +12,7 @@ After this module you can extract body keypoints from video, compute kinematic f
 
 | Stage | Notebook | What it covers |
 | :--- | :--- | :--- |
+| 00 | Guide 00: Digital Video (reading) | Digital video as data — optics, exposure, pixels, resolution, frame rate, and shutter speed |
 | 00 | Getting Started | Loading and inspecting video frames in Python |
 | 01 | Video Processing - Frame Reduction | Lowering frame rate while preserving clip duration |
 | 01 | Video Processing - Video Clipping | Generating paired clips from longer recordings |

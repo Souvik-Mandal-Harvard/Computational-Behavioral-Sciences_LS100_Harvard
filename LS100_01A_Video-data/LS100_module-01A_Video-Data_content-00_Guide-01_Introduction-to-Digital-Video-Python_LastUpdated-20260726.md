@@ -1,7 +1,7 @@
 ---
 subtitle: 'LS100 — Module 01A · Video Data'
 title: Digital Video Data - An Introduction 
-short_title: Module 01A · Digital Video
+short_title: 'Guide 00: Digital Video'
 exports:
   - format: pdf
     template: lapreprint-typst
