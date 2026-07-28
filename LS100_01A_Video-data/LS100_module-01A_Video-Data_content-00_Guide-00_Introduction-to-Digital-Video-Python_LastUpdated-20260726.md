@@ -5,7 +5,7 @@ short_title: 'Guide 00: Digital Video'
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_module-01A_Video-Data_content-00_Guide-01_Introduction-to-Digital-Video-Python_LastUpdated-20260726.pdf
+    output: exports/LS100_module-01A_Video-Data_content-00_Guide-00_Introduction-to-Digital-Video-Python_LastUpdated-20260726.pdf
     id: video-pdf
 downloads:
   - id: video-pdf
