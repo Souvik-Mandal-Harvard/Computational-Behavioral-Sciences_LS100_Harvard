@@ -18,6 +18,17 @@ downloads:
 
 ---
 
+## Table of Contents
+
+1. [Introduction: Turning the Visible World into Data](#introduction-turning-the-visible-world-into-data)
+2. [Optics, Exposure, and the Measurement Tradeoffs](#optics-exposure-and-the-measurement-tradeoffs)
+3. [Pixels, Color, and the Digital Image](#pixels-color-and-the-digital-image)
+4. [Sensors: Where Light Becomes Measurement](#sensors-where-light-becomes-measurement)
+5. [From Still Images to Video: Frames, Frame Rate, and Time](#from-still-images-to-video-frames-frame-rate-and-time)
+6. [How Much Data Is in an Image or Video?](#how-much-data-is-in-an-image-or-video)
+7. [Compression, Codecs, and Why Video Files Are Smaller](#compression-codecs-and-why-video-files-are-smaller)
+8. [From Video to Behavioral Data](#from-video-to-behavioral-data)
+
 ## Introduction: Turning the Visible World into Data
 
 Who does not capture time, joy, and memories through recording videos with our smartphones? It feels ordinary, but the path to freezing time in a visual media rests on a remarkable history. Early photography in 1839 made it possible to preserve a single moment. Motion studies in the 1870s showed that movement could be broken into analyzable visual stages, and cinema in the 1890s made continuous motion replayable. When digital cameras became widely accessible in laboratories, classrooms, and consumer devices during the 1990s and 2000s, recorded motion entered another era. While films were primarily used to preserved and replayed motion, digital video does something quite extraordinary - it stores scenes as data - pixels arranged into frames and indexed in time, allowing light, color, shape, and motion to be measured, processed, and analyzed computationally. That shift is one reason digital cameras became integral to scientific studies across the behavioral, biological, medical, and social sciences.
@@ -165,7 +176,7 @@ These calculations are intentionally simplified, but they are useful because the
 
 ![Raw image and video data size calculation](images/LS100_Video_Figure-4_Image-and-Video-Data-Size.png)
 
-**Figure 05:** *Raw image and video size grow from the combined effects of resolution, channel count, bit depth, frame rate, and duration. Video becomes large because it extends image data through time.*
+**Figure 04:** *Raw image and video size grow from the combined effects of resolution, channel count, bit depth, frame rate, and duration. Video becomes large because it extends image data through time.*
 
 ## Compression, Codecs, and Why Video Files Are Smaller
 
@@ -191,7 +202,7 @@ For that reason, video literacy includes more than knowing how to record footage
 
 ![Compression, codecs, and containers](images/LS100_Video_Figure-5_Compression-Codecs-and-Containers.png)
 
-**Figure 06:** *Compressed video files are smaller than raw frame data because codecs reduce redundancy within and across frames. Containers such as MP4 or MOV hold the encoded video stream, but the codec determines how the data has actually been stored.*
+**Figure 05:** *Compressed video files are smaller than raw frame data because codecs reduce redundancy within and across frames. Containers such as MP4 or MOV hold the encoded video stream, but the codec determines how the data has actually been stored.*
 
 ## From Video to Behavioral Data
 
