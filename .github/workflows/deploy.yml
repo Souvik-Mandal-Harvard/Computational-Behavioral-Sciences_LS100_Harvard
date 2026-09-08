@@ -55,7 +55,10 @@ jobs:
           PDF_SOURCE_BASE="https://souvikmandal.info${BASE_URL}" python3 scripts/stamp_pdf_source.py .
       - name: Build HTML site
         run: myst build --html
-            - name: Build the course-search index
+      # Reads the built site (MyST's own search index + the course PDFs), embeds
+      # it, and adds the search widget to every page. Must run after the HTML
+      # build; BASE_URL above keeps the result links correct.
+      - name: Build the course-search index
         run: |
           python3 -m pip install --quiet pypdf
           npm install --no-save @huggingface/transformers
