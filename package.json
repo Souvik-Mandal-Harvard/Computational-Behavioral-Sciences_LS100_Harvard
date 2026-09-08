@@ -1,0 +1,13 @@
+{
+  "name": "ls100-site-build",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build-time tooling for the LS100 site (search-index embedding). Not part of the course materials.",
+  "type": "module",
+  "scripts": {
+    "chat-index": "python3 scripts/build_chat_index.py && node scripts/embed_chat_index.mjs && python3 scripts/inject_chat_widget.py"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.2.0"
+  }
+}

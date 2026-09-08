@@ -1,0 +1,207 @@
+/* LS100 course search widget - matches the crimson/ink branding in ls100.css.
+   Tokens are re-declared with fallbacks so the widget still looks right if it
+   loads on a page where ls100.css has not applied. */
+
+.ls100-chat {
+  --lsc-crimson: var(--ls100-crimson, #A51C30);
+  --lsc-crimson-dark: var(--ls100-crimson-dark, #7d1524);
+  --lsc-ink: var(--ls100-ink, #1F2933);
+  --lsc-surface: #ffffff;
+  --lsc-muted: #5B6570;
+  --lsc-line: #e3e6e8;
+  --lsc-tint: #f6f7f8;
+
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 9999;
+  font-family: Arial, "Helvetica Neue", Helvetica, system-ui, sans-serif;
+}
+
+/* ------------------------------------------------------------ launcher */
+.ls100-chat__fab {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.1rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--lsc-crimson);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.22);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.ls100-chat__fab:hover { background: var(--lsc-crimson-dark); transform: translateY(-1px); }
+.ls100-chat__fab:focus-visible { outline: 3px solid var(--lsc-ink); outline-offset: 2px; }
+.ls100-chat.is-open .ls100-chat__fab { display: none; }
+
+/* --------------------------------------------------------------- panel */
+.ls100-chat__panel {
+  display: flex;
+  flex-direction: column;
+  width: min(29rem, calc(100vw - 2.5rem));
+  max-height: min(34rem, calc(100vh - 3rem));
+  background: var(--lsc-surface);
+  color: var(--lsc-ink);
+  border: 1px solid var(--lsc-line);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.26);
+}
+.ls100-chat__panel[hidden] { display: none; }
+
+.ls100-chat__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.9rem 1rem;
+  background: var(--lsc-crimson);
+  color: #fff;
+}
+.ls100-chat__head strong { display: block; font-size: 1rem; }
+.ls100-chat__sub { display: block; font-size: 0.75rem; opacity: 0.9; margin-top: 0.15rem; }
+.ls100-chat__close {
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 0.25rem;
+}
+.ls100-chat__close:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+/* ---------------------------------------------------------------- form */
+.ls100-chat__form {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--lsc-line);
+}
+.ls100-chat__input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--lsc-line);
+  border-radius: 8px;
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--lsc-ink);
+  background: var(--lsc-surface);
+}
+.ls100-chat__input:focus-visible { outline: 2px solid var(--lsc-crimson); outline-offset: 1px; }
+.ls100-chat__go {
+  padding: 0.55rem 0.9rem;
+  border: 0;
+  border-radius: 8px;
+  background: var(--lsc-ink);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.ls100-chat__go:hover { background: #000; }
+.ls100-chat__go:focus-visible { outline: 3px solid var(--lsc-crimson); outline-offset: 2px; }
+
+/* -------------------------------------------------------------- results */
+.ls100-chat__body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+}
+.ls100-chat__msg {
+  padding: 1rem 0.85rem;
+  color: var(--lsc-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.ls100-chat__msg small { font-size: 0.8rem; opacity: 0.85; }
+.ls100-chat__msg--error { color: var(--lsc-crimson); }
+
+.ls100-chat__hit {
+  display: block;
+  padding: 0.7rem 0.85rem;
+  border-radius: 9px;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.ls100-chat__hit + .ls100-chat__hit { margin-top: 0.15rem; }
+.ls100-chat__hit:hover { background: var(--lsc-tint); border-color: var(--lsc-line); }
+.ls100-chat__hit:focus-visible { outline: 2px solid var(--lsc-crimson); outline-offset: -2px; }
+
+.ls100-chat__kind {
+  display: inline-block;
+  margin-bottom: 0.3rem;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  background: var(--lsc-tint);
+  border: 1px solid var(--lsc-line);
+  color: var(--lsc-muted);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.ls100-chat__kind--guide { color: var(--lsc-crimson); border-color: currentColor; }
+.ls100-chat__kind--notebook { color: #1b6b4a; border-color: currentColor; }
+.ls100-chat__kind--pdf { color: #8a5a00; border-color: currentColor; }
+
+.ls100-chat__where {
+  display: block;
+  font-weight: 700;
+  font-size: 0.88rem;
+  color: var(--lsc-ink);
+  line-height: 1.35;
+}
+.ls100-chat__crumb { font-weight: 400; color: var(--lsc-muted); }
+.ls100-chat__snip {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--lsc-muted);
+}
+
+.ls100-chat__foot {
+  padding: 0.5rem 0.85rem;
+  border-top: 1px solid var(--lsc-line);
+  background: var(--lsc-tint);
+  color: var(--lsc-muted);
+  font-size: 0.72rem;
+  text-align: center;
+}
+
+/* ----------------------------------------------------------- dark mode
+   Keyed to the book theme's own `html.dark` class rather than
+   prefers-color-scheme: the theme has a manual toggle, so a reader on a light
+   OS who switches the site to dark would otherwise get a light widget on a
+   dark page. The theme already follows the OS on first visit. */
+html.dark .ls100-chat {
+  --lsc-surface: #1c2126;
+  --lsc-ink: #e8ebed;
+  --lsc-muted: #9aa5ae;
+  --lsc-line: #333c44;
+  --lsc-tint: #252c32;
+}
+html.dark .ls100-chat__go { background: #e8ebed; color: #10151a; }
+html.dark .ls100-chat__go:hover { background: #fff; }
+html.dark .ls100-chat__kind--notebook { color: #6dd3a6; }
+html.dark .ls100-chat__kind--pdf { color: #e0b25f; }
+
+@media (max-width: 480px) {
+  .ls100-chat { right: 0.75rem; bottom: 0.75rem; }
+  .ls100-chat__panel { max-height: min(30rem, calc(100vh - 2rem)); }
+  .ls100-chat__fab span { display: none; }
+  .ls100-chat__fab { padding: 0.85rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ls100-chat__fab { transition: none; }
+  .ls100-chat__fab:hover { transform: none; }
+}

@@ -55,6 +55,13 @@ jobs:
           PDF_SOURCE_BASE="https://souvikmandal.info${BASE_URL}" python3 scripts/stamp_pdf_source.py .
       - name: Build HTML site
         run: myst build --html
+            - name: Build the course-search index
+        run: |
+          python3 -m pip install --quiet pypdf
+          npm install --no-save @huggingface/transformers
+          python3 scripts/build_chat_index.py
+          node scripts/embed_chat_index.mjs
+          python3 scripts/inject_chat_widget.py
       - name: Make built filenames GitHub-Pages-safe ($ [ ] ( ) -> safe)
         run: python3 scripts/gh_pages_safe_filenames.py _build/html
 
