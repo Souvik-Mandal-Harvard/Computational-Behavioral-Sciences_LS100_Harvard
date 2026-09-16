@@ -17,20 +17,21 @@ downloads:
 
 ---
 
-This guide is about the first presentation for the LS100 students — not the written proposal, which is covered separately. It's for the 15-minute talk you give as a group at the very start of the semester.
+This guide focuses on the first presentation for LS100 students, not the written proposal, which is covered separately. It is intended for the 15-minute group talk you give at the very start of the semester.
 
-Because you haven't run the study yet, this talk isn't about results. It's about showing your plan holds together, and getting feedback on it while you have time to act on it. Build the talk to invite questions, not avoid them. Keep it to a maximum of **four slides** — here's what may go on each one, and how to present it well.
+In this talk, you do not need to show results as you have not run the study yet. It is rather intended to present your idea, the question or problem you want to solve, and the research plan in a coherent way, and getting feedback before you begin the research. Build the talk to invite questions, not avoid them. Keep it to a maximum of **four slides** — below is what each slide may cover, and how to present it well.
+
 
 ## Your four slides
 
 | Slide | Content |
 |---|---|
 | 1 | The overarching question — and why it matters |
-| 2 | Your specific aims and hypotheses |
-| 3 | Methodology and data — how each dataset answers an aim |
+| 2 | Your specific aims and hypotheses / target |
+| 3 | Methodology and data — how each dataset answers an aim / serves the target |
 | 4 | Possible outcomes, and back to the bigger question |
 
-This mirrors how NIH grant applications open: a one-page "Specific Aims" section that states the problem's significance, lists the aims and hypotheses, and closes on expected impact ([@niaid]).
+This structure mirrors how NIH grant applications begin: a one-page "Specific Aims" section that states the problem's significance, lays out the aims and hypotheses, and closes by pointing to the expected impact ([@niaid]).
 
 ## 1. Defining and framing the problem
 *Slide 1*
