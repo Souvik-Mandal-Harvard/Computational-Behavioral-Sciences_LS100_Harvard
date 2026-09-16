@@ -36,12 +36,13 @@ This structure mirrors how NIH grant applications begin: a one-page "Specific Ai
 ## 1. Defining and framing the problem
 *Slide 1*
 
-- Define the problem scientifically: state it as one specific, testable question, not a broad topic. ("What drives X" is a topic; "Does A predict B in Y" is a question.)
-- Say why this is interesting to you, and why it might matter to a broader audience — especially if the full research would need substantial funding.
-- Keep it to one sentence your audience could repeat back to you. If they can't, it isn't ready for slide 1.
-- Ideally, you would frame the research question with naming the gap — what's known, and what isn't — that your question sits in. But for this presentation, this depends on how much time you want to allocate to this slide.
+- Open with the overarching issue.
+- Explain why the problem matters to you and why it may matter to a broader audience — especially if the full research would require substantial funding.
+- Narrow that issue to one specific, testable question rather than a broad topic. (“What drives X” is a topic; “Does A predict B in Y” is a question.)
+- Keep the question or problem statement to one sentence that your audience could repeat back to you. If they cannot, it is not yet ready for slide 1.
+- Ideally, frame the research question by pointing out the gap: what is already known and what remains unresolved. For this presentation, that may depend on how much time you want to allocate to this slide.
 
-> **For the talk:** You might open this as a short story, not a list of facts or questions — what's known or agreed on (the "and"), the tension or gap (the "but"), and what you propose to do about it (the "therefore"). One well-built sentence like this can carry the whole slide ([@olson2015]).
+> **For the talk:** Open with a short story — what's known or agreed on (the "and"), the tension or gap (the "but"), and what you propose to do about it (the "therefore"). One well-crafted sentence like this can carry the whole slide ([@olson2015]).
 
 ## 2. Breaking down the problem: specific aims and hypotheses
 *Slide 2*
@@ -75,7 +76,7 @@ This structure mirrors how NIH grant applications begin: a one-page "Specific Ai
 
 ## Delivering it well
 
-- Rehearse out loud against a timer. Four slides in 10 minutes is roughly 2–2.5 minutes each, including time to talk through a figure.
+- **Rehearse out loud against a timer**. If you are presenting in group (which is the case for LS100 students), calculate how much time each of you will have. However, each of you should have at least 3 minutes - that is 180 seconds. So, each second counts.
 - When someone asks a question, repeat or rephrase it before you answer — it confirms you understood it, and makes sure the room heard it too.
 - Build the talk to invite questions, not close them off: ask yourself what you want your audience to ask, not just what you need to tell them ([@heath2007]). The more engaged your listeners are while you talk, the more they understand and remember afterward ([@stephens2010]).
 
