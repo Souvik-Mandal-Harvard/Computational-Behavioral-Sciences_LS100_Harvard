@@ -71,11 +71,11 @@ This structure mirrors how NIH grant applications begin: a one-page "Specific Ai
 ## 4. Possible outcomes and the bigger picture
 *Slide 4*
 
-- State the outcome that would tell you the analysis worked — a hypothesis rejected, or a pipeline or model produced.
+- State the outcome that would tell you the analysis worked — for example, a hypothesis rejected, or a pipeline produced, or a model trained.
 - Connect this specific aim back to the larger theoretical, practical, or societal question you opened with, and name the next question that follows from it.
-- Say what you'll do with the feedback from this talk. This slide is a draft, not a conclusion.
+- Say what you will do with the feedback from this talk, keeping in mind that this presentation is a proposal, not a conclusion.
 
-> **For the talk:** Close by answering the "who cares" question you opened with — bookend the talk. Compressing a research question and its stakes for a general audience in a few minutes is a real, transferable skill.
+> **For the talk:** Close by answering the "who cares" question you opened with. Compressing a research question and its stakes for a general audience in a few minutes is a real, transferable skill that I would like you to gain from this exercise.
 
 ## Delivering it well
 
@@ -89,4 +89,4 @@ This structure mirrors how NIH grant applications begin: a one-page "Specific Ai
 - [ ] Slide 2: Are your aims specific and falsifiable, not just topics?
 - [ ] Slide 3: Does every dataset trace to an aim, and does the timeline add up?
 - [ ] Slide 4: Have you named the outcome that tells you it worked, and closed the loop on "why it matters"?
-- [ ] Have you timed a full run-through, out loud, at four slides?
+- [ ] Have you timed a full run-through, reading out loud, at four slides? If it exceeds 3 minutes, revise it.
