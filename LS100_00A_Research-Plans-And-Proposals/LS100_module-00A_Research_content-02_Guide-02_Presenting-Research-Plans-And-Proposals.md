@@ -47,23 +47,26 @@ This structure mirrors how NIH grant applications begin: a one-page "Specific Ai
 ## 2. Breaking down the problem: specific aims and hypotheses
 *Slide 2*
 
-- To solve the problem, what related questions or steps must be addressed, either in sequence or in parallel? These might include one specific research question, one testable hypothesis, or developing a tool, or a statistical or machine learning model. 
-- State each as a specific aim: what you'll do, and what you expect to find. Each question or step should lead to a clear hypothesis or outcome. Think of hypothesis as a specific, testable, falsifiable expectation — "if [X], then [Y], because [mechanism/ logic]" is a good template.
-- Check whether each aim is doable in the time and resources you actually have. If a later aim depends entirely on an earlier one succeeding, say so and name it as a risk.
-- Write down the questions, hypotheses, steps, and possible outcomes in a logical sequence. This process is iterative, so you may need to revisit it and add, remove, or reorder items — that's expected.
+- To solve the problem, what related questions or steps must be addressed, either in sequence or in parallel? These might include one specific research question, one testable hypothesis, or a deliverable outcome - developing a tool, or a statistical or machine learning model. 
+- State each as a specific aim: what you will do, and what you expect to find. Each aim (question or step) should lead to a clear hypothesis or outcome. Think of hypothesis as a specific, testable, falsifiable expectation — "if [X], then [Y], because [mechanism/ logic]" is a good template. Outcome could be a tool, data pipeline, a statistical or machine learning model.
+- Check whether each aim is feasible within the time and resources you actually have.
+- If a later aim depends entirely on an earlier one succeeding, say so and name it as a risk.
+- Write down the questions, hypotheses, steps, and possible outcomes in a logical sequence. This helps you to have a mental map of the logical flow.
+- This process is iterative, so you may need to revisit it and add, remove, or reorder items — this is a core part of research.
 
-> **For the talk:** Keep this to two aims. Even NIH grant writers are told to limit their aims to avoid looking unfocused rather than ambitious ([@niaid]) — the same holds on one slide.
+> **For the talk:** Keep this to two aims. Limiting the presentation to two aims makes the project feel focused rather than unfocused, even when the underlying research is ambitious. This is what NIH suggests to the grant writers as well ([@niaid]).
 
 ## 3. Focusing on one achievable goal: Methodology and data structure
 *Slide 3*
 
-- Next, focus on the first question or step. Is it doable within your available time and resources? 
-- Name every dataset you'll need and its type, and draw a direct line from each dataset to the aim it answers.
-- Say where the data comes from, what equipment or access it needs, and how long it will take to collect. As a rule of thumb, **consider budgeting about a third of your available time for collecting data**.
-- Name the proxy you're using for anything you can't measure directly (e.g., a click count standing in for "engagement"), and say in one sentence why it's a reasonable stand-in — and one way it could be wrong (a threat to what methodologists call construct validity: [@cronbach1955]).
-- Note, briefly, any transformation the raw data needs before analysis, and the statistical or computational method you'll use.
+- Next, focus on the first aim. Is it achievable within your available time and resources? If yes, nice. If not, limit it within your budget.
+- Name every dataset you will need, specify its type, and identify the relevant variables (for example, independent vs. dependent variables, and whether they are discrete or continuous). Then draw a direct line from each dataset to the aim it answers.
+- Explain where the data will come from, what equipment or access you will require to get the data, and how long it will take to collect the data. As a rule of thumb, **consider budgeting about a third of your available time for data collection**.
 
-> **For the talk:** You may show this as a diagram or infographics, for instance, a graphics showing "from a specific aim, arrows to each dataset and method". A figure someone else could present without you standing there is doing its job; if it takes more than a few seconds to read, simplify it ([@midway2020]). Watch for the usual traps: a bar chart with a non-zero y-axis, two unrelated variables on dual y-axes, or a pie chart — all common ways figures mislead rather than clarify ([@nguyen2021]).
+- If you cannot measure a construct directly, name the proxy you will use (for example, a click count on a website standing in for “engagement”), and explain in one sentence why it is a reasonable stand-in and one way it could fail (a threat to construct validity [@cronbach1955]).
+- Briefly note any transformation the raw data will need before analysis, and the statistical or computational method you will use.
+
+> **For the talk:** You may show this as a diagram or infographics - for example, a flow showing how each specific aim connects to the relevant dataset and method. A figure someone else could present without you standing there is doing its job; if it takes more than a few seconds to read, simplify it ([@midway2020]).
 
 ## 4. Possible outcomes and the bigger picture
 *Slide 4*
