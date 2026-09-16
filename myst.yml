@@ -11,6 +11,10 @@ project:
   license:
     content: CC-BY-NC-4.0
   open_access: true
+  # Shared reference list; cite entries with [@key]. Keeping full metadata
+  # (incl. DOIs) here means the build never has to fetch from doi.org.
+  bibliography:
+    - references.bib
   # Files that are built but not part of the student-facing navigation
   exclude:
     - README.md
