@@ -19,7 +19,7 @@ downloads:
 
 This guide focuses on the first presentation for LS100 students, not the written proposal, which is covered separately. It is intended for the 15-minute group talk you give at the very start of the semester.
 
-In this talk, you do not need to show results as you have not run the study yet. It is rather intended to present your idea, the question or problem you want to solve, and the research plan in a coherent way, and getting feedback before you begin the research. Build the talk to invite questions, not avoid them. Keep it to a maximum of **four slides** — below is what each slide may cover, and how to present it well.
+In this talk, you do not need to show results as you have not run the study yet. It is rather intended to present your idea, the question or problem you want to solve, and the research plan in a coherent way, and getting feedback before you begin the research. Build the talk to invite questions, not avoid them. Keep it to a maximum of **four slides** — below is what each slide may cover, and how to present well.
 
 
 ## Your four slides
@@ -47,8 +47,8 @@ This structure mirrors how NIH grant applications begin: a one-page "Specific Ai
 ## 2. Breaking down the problem: specific aims and hypotheses
 *Slide 2*
 
-- To solve the problem, what related specific questions are needed to be answered, or steps needed to be taken, either in sequence or in parallel? This could be answering one particular question, testing one particular hypothesis, or developing a tool, or a statistical or machine learning model. 
-- State each as a specific aim: what you'll do, and what you expect to find. Each question or step should a clear hypothesis or outcome. Think of hypothesis as a specific, falsifiable answer — "if [X], then [Y], because [mechanism/ logic]" is a good template.
+- To solve the problem, what related questions or steps must be addressed, either in sequence or in parallel? These might include one specific research question, one testable hypothesis, or developing a tool, or a statistical or machine learning model. 
+- State each as a specific aim: what you'll do, and what you expect to find. Each question or step should lead to a clear hypothesis or outcome. Think of hypothesis as a specific, testable, falsifiable expectation — "if [X], then [Y], because [mechanism/ logic]" is a good template.
 - Check whether each aim is doable in the time and resources you actually have. If a later aim depends entirely on an earlier one succeeding, say so and name it as a risk.
 - Write down the questions, hypotheses, steps, and possible outcomes in a logical sequence. This process is iterative, so you may need to revisit it and add, remove, or reorder items — that's expected.
 
