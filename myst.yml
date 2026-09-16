@@ -23,6 +23,7 @@ project:
         - file: LS100_00A_Research-Plans-And-Proposals/Module-00A_Research-Plans-And-Proposals.md
           children:
             - file: LS100_00A_Research-Plans-And-Proposals/LS100_module-00A_Research_content-01_Guide-01_Writing-Research-Plans-And-Proposals.md
+            - file: LS100_00A_Research-Plans-And-Proposals/LS100_module-00A_Research_content-02_Guide-02_Presenting-Research-Plans-And-Proposals.md
         - file: LS100_00B_Python-Fundamentals/Module-00B_Python-Fundamentals.md
           children:
             - file: LS100_00B_Python-Fundamentals/LS100_module-00B_content-01_Guide-01_Getting-Started-with-Python_LastUpdated-20260601.md
