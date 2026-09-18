@@ -27,7 +27,9 @@ The title of your research plan should be concise yet descriptive. It is the fir
 
 2.  Portray the central phenomenon, population or data source, and key variable(s) or approach.
 
-3.  Avoid cleverness that obscures meaning; prefer clarity over novelty.
+3.  Avoid cleverness that obscures meaning; prefer clarity.
+
+4. If the study yields some novel findings, it is a good idea to put that on the title.
 
 
 :::{tip} Critical Evaluation:
@@ -81,6 +83,8 @@ Good abstracts are tight but concrete: name variables, units of analysis, and co
 ## 3. Introduction & Background
 
 The **introduction** sets the stage for your research, answering “What is the phenomenon, and why does it matter now?”. Begin this section with the ***problem statement*** - a crisp, clearly articulated research problem or topic you will investigate and explain why it is important. Define the domain of your research (theory, experimental, practice, production, etc.).
+
+> **Avoid asking tautological questions** - questions whose answer is guaranteed by the definitions involved, and no study could ever come out with different results. For example, "Does arm kinematics differ across different types of baseball or golf swings?" — logically, it must. No amount of study or data will find anything otherwise, and thus, not interesting. In contrast, questions like "Which specific running style minimizes joint stress on the patella during a marathon?" or "Does a 10-minute mindfulness break between morning lectures increase the sustained attention span of college students during afternoon seminars?" are genuinely investigative because their outcomes are not guaranteed by definition.
 
 Next, map the **knowledge landscape**: what is established, where uncertainty remains, and what debate or limitation your study targets. In crafting the background, demonstrate you are familiar with key scholarly work on the topic. Highlight how your work will build upon or depart from existing knowledge, and why those differences matter. By establishing the context and rationale, you show your project is grounded in scholarly understanding and addresses a meaningful question.
 

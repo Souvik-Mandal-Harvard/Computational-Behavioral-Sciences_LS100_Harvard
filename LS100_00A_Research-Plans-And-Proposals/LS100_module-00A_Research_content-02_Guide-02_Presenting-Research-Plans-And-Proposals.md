@@ -38,7 +38,8 @@ This structure mirrors how NIH grant applications begin: a one-page "Specific Ai
 
 - Open with the overarching issue.
 - Explain why the problem matters to you and why it may matter to a broader audience — especially if the full research would require substantial funding.
-- Narrow that issue to one specific, testable question rather than a broad topic. (“What drives X” is a topic; “Does A predict B in Y” is a question.)
+- From the broad topic/ issue, narrow down to one specific, testable question. (“What drives X” is a topic; “Does A predict B in Y” is a question.)
+- **Avoid asking tautological questions** - questions whose answer is guaranteed by the definitions involved, and no study could ever come out with different results. For example, "Does arm kinematics differ across different types of baseball or golf swings?" — logically, it must. No amount of study or data will find anything otherwise. Therefore, the question is not interesting. Instead, ask questions that investigate empirical unknowns, where the outcomes are not predetermined, and the hypotheses can be actively tested and falsified.
 - Keep the question or problem statement to one sentence that your audience could repeat back to you. If they cannot, it is not yet ready for slide 1.
 - Ideally, frame the research question by pointing out the gap: what is already known and what remains unresolved. For this presentation, that may depend on how much time you want to allocate to this slide.
 
