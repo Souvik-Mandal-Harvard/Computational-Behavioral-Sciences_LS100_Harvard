@@ -36,7 +36,7 @@ No prior programming experience is required. Module `LS100_00B_Python-Fundamenta
 ## Getting started
 There are primarily two types of materials: reading guides (`.md` files) and Python Jupyter notebooks (`.ipynb files`). The materials are to get you started with your research journey, but do not necessarily serve as an end-to-end research project. Learners need to create their own code/ reports/ materials to conduct their own research. To start:
 
-1. **Frame the Research Project** The Guide-01 in the folder **`LS100_00A_Research-Plans-And-Proposals` is meant to make you understand how to frame research plans and research proposals. 
+1. **Frame the Research Project** Start with **Guide 00** in the folder `LS100_00A_Research-Plans-And-Proposals`, which takes you from an interest to a research framework — question, operational definition, data model, and planned analysis. **Guide 01** then covers presenting that plan, and **Guide 02** covers writing it up.
 2. Next, read **Computation Guide 01** (in `LS100_00B_Python-Fundamentals`) and set up your Python environment.
 3. If you are new to Python programming, start with **`Notebook-01_Data-in-Python_Foundation`**, and follow the notebooks in numeric order.
 4. Depending on your data type, choose either the `LS100_01A_Video-data` or the `LS100_01B_Audio-Data` folder, and follow the notebooks in numeric order.
@@ -78,7 +78,9 @@ The repository is organized to follow the research workflow — from framing a q
 
 How to turn an interest into a researchable question and a credible proposal.
 
-- **Research Guide 01 — Writing Research Plans and Proposals**: framing questions, hypotheses, and study design.
+- **Research Guide 00 — Converting the Problem to a Research Framework**: turning an interest into an answerable question, an operational definition, a data model, and a planned analysis.
+- **Research Guide 01 — Presenting Research Plans and Proposals**: the four-slide talk that opens the semester.
+- **Research Guide 02 — Writing Research Plans and Proposals**: the written plan, section by section.
 
 ---
 
@@ -157,7 +159,7 @@ Reference guides in this folder:
 
 Turning results into a clear scientific story.
 
-- **Research Guide 02 — The Art of Communicating Science**: structuring talks, designing slides and figures, and presenting findings effectively.
+- **The Art of Communicating Science**: structuring talks, designing slides and figures, and presenting findings effectively.
 
 ---
 
@@ -167,23 +169,25 @@ The written guides live alongside the stage of the workflow they support:
 
 | Guide | Location |
 | :--- | :--- |
-| Research Guide 01 — Writing Research Plans and Proposals | `LS100_00A_Research-Plans-And-Proposals/` |
+| Research Guide 00 — Converting the Problem to a Research Framework | `LS100_00A_Research-Plans-And-Proposals/` |
+| Research Guide 01 — Presenting Research Plans and Proposals | `LS100_00A_Research-Plans-And-Proposals/` |
+| Research Guide 02 — Writing Research Plans and Proposals | `LS100_00A_Research-Plans-And-Proposals/` |
 | Computation Guide 01 — Getting Started with Python | `LS100_00B_Python-Fundamentals/` |
 | Computation Guide 02 — Essential Python Terminologies and Concepts | `LS100_00B_Python-Fundamentals/` |
 | Introduction to Digital Audio in Python | `LS100_01B_Audio-Data/` |
 | Navigational Guide to Statistical Methods (+ decision-tree poster) | `LS100_02_Data-Science_Stats/` |
-| Research Guide 02 — The Art of Communicating Science | `LS100_03_Communication-and-Presentation/` |
+| The Art of Communicating Science | `LS100_03_Communication-and-Presentation/` |
 | Career Guide 01 — Data Careers | repository root |
 
 ---
 
 ## Suggested learning path
 
-1. **Frame your study** with Research Guide 01 in `LS100_00A_Research-Plans-And-Proposals`.
+1. **Frame your study** with Research Guides 00 to 02 in `LS100_00A_Research-Plans-And-Proposals` — build the framework, present it, then write it up.
 2. **Build Python fluency** with Module `LS100_00B_Python-Fundamentals` (Notebooks 01 to 05) and its computation guides.
 3. **Choose your data modality**: Module 01A (video/movement), Module 01B (audio/vocalization), or both, and run the processing pipelines.
 4. **Analyze your outcomes** with Module 02, using the statistical-methods guide and decision-tree poster to pick the right test.
-5. **Communicate your findings** with Research Guide 02 in `LS100_03_Communication-and-Presentation`.
+5. **Communicate your findings** with *The Art of Communicating Science* in `LS100_03_Communication-and-Presentation`.
 
 ---
 

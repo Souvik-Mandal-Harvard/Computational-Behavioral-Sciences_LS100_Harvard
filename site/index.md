@@ -14,7 +14,7 @@ From the precise movements of animals or an athlete to the intricate decision-ma
 
 **Highlights of the course**
 
-**6 modules** · **~27 notebooks** · **7 reading guides** ·**from zero Python to data science and AI/ML workflow**
+**6 modules** · **~27 notebooks** · **9 reading guides** ·**from zero Python to data science and AI/ML workflow**
 
 Please click the "hamburger" menu button on the top left of this site to explore all modules and other content. You can also search for any topic through the search box.
 

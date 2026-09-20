@@ -1,14 +1,14 @@
 ---
 subtitle: 'LS100 — Module 00A · Research Plans & Proposals'
 title: Presenting Research Plans and Proposals
-short_title: 'Guide 2: Presenting Proposal'
+short_title: 'Guide 01: Presenting Proposal'
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_module-00A_Research_content-02_Guide-02_Presenting-Research-Plans-And-Proposals_LastUpdated-20260915_v2.pdf
-    id: rg02-pdf
+    output: exports/LS100_module-00A_Research_content-01_Guide-01_Presenting-Research-Plans-And-Proposals_LastUpdated-20260915_v2.pdf
+    id: rg01-pdf
 downloads:
-  - id: rg02-pdf
+  - id: rg01-pdf
     title: Download the article (PDF)
 ---
 *Authored by* **Souvik Mandal, Ph.D.**
@@ -17,7 +17,7 @@ downloads:
 
 ---
 
-This guide focuses on the first presentation for LS100 students, not the written proposal, which is covered separately. It is intended for the 15-minute group talk you give at the very start of the semester.
+This guide focuses on the first presentation for LS100 students, not the written proposal, which is covered separately. It is intended for the 15-minute group talk you give at the very start of the semester. It assumes you have already worked through *Research Methodologies: Converting the Problem to a Research Framework* (Guide 00) in this module — this talk presents that framework rather than builds it.
 
 In this talk, you do not need to show results as you have not run the study yet. It is rather intended to present your idea, the question or problem you want to solve, and the research plan in a coherent way, and getting feedback before you begin the research. Build the talk to invite questions, not avoid them. Keep it to a maximum of **four slides** — below is what each slide may cover, and how to present well.
 

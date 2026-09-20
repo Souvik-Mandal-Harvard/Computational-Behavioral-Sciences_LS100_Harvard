@@ -9,7 +9,9 @@ can read in the browser and download as a PDF.
 
 ## Frame your study
 
-- [Research Guide 01 — Writing Research Plans and Proposals](../LS100_00A_Research-Plans-And-Proposals/Module-00A_Research-Plans-And-Proposals.md)
+- [Research Guide 00 — Converting the Problem to a Research Framework](../LS100_00A_Research-Plans-And-Proposals/Module-00A_Research-Plans-And-Proposals.md)
+- [Research Guide 01 — Presenting Research Plans and Proposals](../LS100_00A_Research-Plans-And-Proposals/Module-00A_Research-Plans-And-Proposals.md)
+- [Research Guide 02 — Writing Research Plans and Proposals](../LS100_00A_Research-Plans-And-Proposals/Module-00A_Research-Plans-And-Proposals.md)
 
 ## Build Python fluency
 
@@ -26,7 +28,7 @@ can read in the browser and download as a PDF.
 
 ## Communicate your findings
 
-- [Research Guide 02 — The Art of Communicating Science](../LS100_03_Communication-and-Presentation/Module-03_Communication-and-Presentation.md)
+- [The Art of Communicating Science](../LS100_03_Communication-and-Presentation/Module-03_Communication-and-Presentation.md)
 
 ## Careers
 

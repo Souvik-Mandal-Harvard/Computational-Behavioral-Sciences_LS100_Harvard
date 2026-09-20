@@ -1,14 +1,14 @@
 ---
 subtitle: 'LS100 — Module 00A · Research Plans & Proposals'
-title: Framing Research Plans and Proposals
-short_title: Guide 01 - Research Plan
+title: Writing Research Plans and Proposals
+short_title: 'Guide 02: Writing Proposal'
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_module-00A_Research_content-01_Guide-01_Framing-Research-Plans-And-Proposals_LastUpdated-20260609.pdf
-    id: rg01-pdf
+    output: exports/LS100_module-00A_Research_content-02_Guide-02_Writing-Research-Plans-And-Proposals_LastUpdated-20260609.pdf
+    id: rg02-pdf
 downloads:
-  - id: rg01-pdf
+  - id: rg02-pdf
     title: Download the article (PDF)
 ---
 *Authored by* **Souvik Mandal, Ph.D.**
@@ -17,7 +17,7 @@ downloads:
 
 ---
 
-This guide outlines the essential components of a clear, effective research plan or proposal. It breaks down each section — Title, Abstract, Introduction, Objectives & Questions, Methodology, Data Management, Ethics, Timeline, Expected Outcomes, and more — explaining their purposes and offering tips for coherence and rigor. The guide also provides critical-evaluation checkpoints and worksheet checklists for every section, enabling continuity from initial idea to final appendices. By following this guidance, students can develop a well-structured, feasible research plan that demonstrates scholarly grounding and practical significance.
+This guide outlines the essential components of a clear, effective research plan or proposal. It assumes you have already built a research framework using *Research Methodologies: Converting the Problem to a Research Framework* (Guide 00) in this module; the question, operational definition, data model, and planned analysis you produced there are what these sections turn into a document. It breaks down each section — Title, Abstract, Introduction, Objectives & Questions, Methodology, Data Management, Ethics, Timeline, Expected Outcomes, and more — explaining their purposes and offering tips for coherence and rigor. The guide also provides critical-evaluation checkpoints and worksheet checklists for every section, enabling continuity from initial idea to final appendices. By following this guidance, students can develop a well-structured, feasible research plan that demonstrates scholarly grounding and practical significance.
 
 ## Title
 
