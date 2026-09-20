@@ -80,7 +80,7 @@ Print **two copies**: the participant keeps one, you keep one. Give them time to
 **Study:** `[PLAIN-LANGUAGE TITLE]`
 
 **Researcher:** `[YOUR NAME]`, Email: `[YOUR EMAIL]`
- 
+
 **Supervisor:** `[INSTRUCTOR NAME]`, Email: `[INSTRUCTOR EMAIL]`
 LS100, Harvard University (FAS)
 
@@ -102,7 +102,11 @@ LS100, Harvard University (FAS)
 
 ## Part 2 · Consent and Signature
 
-**Study:** `[PLAIN-LANGUAGE TITLE]` · **Researcher:** `[YOUR NAME]` · **Instructor:** `[INSTRUCTOR NAME]`
+**Study:** `[PLAIN-LANGUAGE TITLE]`
+
+**Researcher:** `[YOUR NAME]`
+
+**Instructor:** `[INSTRUCTOR NAME]`
 
 **Required to take part** — please write your initials beside each statement.
 
