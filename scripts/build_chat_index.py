@@ -66,6 +66,9 @@ def load_slug_kinds(build_dir):
                 page = json.load(fh)
         except (OSError, ValueError):
             continue
+        # Not every JSON in the build is a page (e.g. MyST's public.json is a list).
+        if not isinstance(page, dict):
+            continue
         slug, location = page.get("slug"), page.get("location") or ""
         if not slug:
             continue
