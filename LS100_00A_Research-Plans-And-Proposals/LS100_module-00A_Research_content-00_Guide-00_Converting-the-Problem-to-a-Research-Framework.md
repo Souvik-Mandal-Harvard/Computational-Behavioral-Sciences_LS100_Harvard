@@ -190,6 +190,8 @@ Point at your planned table and ask: "how many independent units does this repre
 
 :::{note} **LS100 Task:**
 Produce a one-page **data model sketch** containing: the unit of analysis in one sentence, the column headers of the final table with each variable's role and scale, one fully invented example row, and a note on which columns are primary, secondary, and tertiary. Bring it to your work-plan presentation; it is usually the slide that generates the most useful feedback.
+
+For the step-by-step procedure that turns this sketch into a flow diagram, table schemas, a folder layout, and a working notebook, see [*Building the Data Model: From Raw Data to Analysis-Ready Tables*](LS100_module-00A_Research_content-04_Guide-03_Building-the-Data-Model.md).
 :::
 
 :::{dropdown} Worksheet Checklist
