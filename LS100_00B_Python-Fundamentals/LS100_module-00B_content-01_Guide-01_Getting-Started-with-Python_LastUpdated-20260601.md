@@ -70,7 +70,7 @@ As you progress, you may want to use a more powerful code editor or **IDE** (Int
 
 For completeness, it’s worth mentioning what more advanced Python workflows look like (even if it’s beyond the initial learning phase):
 
-  - **Virtual Environments:** As you install more packages, you’ll encounter situations where different projects require different package versions. **Virtual environments** are isolated spaces for project-specific dependencies. Tools like `python -m venv` (built-in) or ` conda  ``env` or `pyenv` help manage this. For example, you might create a virtual environment for a web app project so that its dependencies don’t conflict with those of a data science project. Using virtual environments is considered one of the best practices in Python development, you may not need this immediately if you’re just starting and using one environment for everything.
+  - **Virtual Environments:** As you install more packages, you’ll encounter situations where different projects require different package versions. **Virtual environments** are isolated spaces for project-specific dependencies. Tools like `python -m venv` (built-in), `conda env`, or `pyenv` help manage this. For example, you might create a virtual environment for a web app project so that its dependencies don’t conflict with those of a data science project. Using virtual environments is considered one of the best practices in Python development. For this course, you’ll create one simple virtual environment step by step in [Local setup: Python + venv + Jupyter](#local-setup).
 
   - **Cloud Deployment:** Eventually, you may want to turn your Python code into an application that others can use (for example, a web service or a data dashboard). Python supports this through web frameworks like **Flask** or **Django**, and you can deploy apps to cloud platforms (AWS, Heroku, etc.) or as simple cloud functions. This is an advanced step, but it’s the direction many projects go. Thanks to Python’s flexibility, the same code you prototype in a notebook can often be integrated into a web application or cloud workflow. (For instance, Python is commonly used in web development and can be the foundation of full software products. Mastering the basics will prepare you to explore these deployment tools when you’re ready.
 
@@ -153,40 +153,232 @@ With Python installed (or an online environment ready), you can now start **runn
 
   - **Running scripts:** You can write Python code in a text file with a `.py` extension (this is called a *script*) and run it as a whole. For instance, you might create a file `hello.py` containing `print("Hello")`. Running this script can be done by executing `python hello.py` in a terminal. If using an IDE or code editor, there are typically run commands (for example, in VS Code you can press the Run button or F5 to execute the script). This mode is better for saving and re-running programs, and it’s how larger applications are developed.
 
-  - **Jupyter Notebooks:** A Jupyter Notebook is an interactive web-based interface that lets you mix code, text, and visualizations. It’s extremely popular in education and data science. You can start a local Jupyter Notebook server by installing the notebook package (`pip install notebook`) and running `jupyter notebook`. This will open a browser interface where you can create notebooks. In a notebook, you write code in cells and execute them to see output below the cell. Notebooks are great for step-by-step exploration and keeping notes alongside code. If you installed Anaconda, Jupyter is already included (you can launch it from the Anaconda Navigator or the Start menu on Windows). If you prefer not to install anything, remember you can use **Google Colab**, which is essentially a hosted Jupyter Notebook provided by Google, accessible at [colab.research.google.com](https://colab.research.google.com).
-
-## **Installing Jupyter Notebook (for Method 1 & 2 users)**
-
-If you installed Python via **Homebrew** or the **official .pkg installer**, Jupyter Notebook is **not included by default**. You need to install it separately. Follow the steps below:
-
-1. Open **Terminal**.
-
-2. Upgrade pip (optional but recommended):
-```
-python3 -m pip install --upgrade pip
-```
-3. Install the Jupyter Notebook package:
-```
-python3 -m pip install notebook
-```
-4. To launch Jupyter, navigate to your project folder in Terminal and run:
-
-```
-jupyter notebook
-```
-This will open a browser window at http://localhost:8888, where you can create and run notebooks.
-
-:::{note}
-If you used **Anaconda (Method 3)**, Jupyter is already installed — you can launch it directly from Anaconda Navigator or by typing jupyter notebook in Terminal.
-:::
+  - **Jupyter Notebooks:** A Jupyter Notebook is an interactive web-based interface that lets you mix code, text, and visualizations. It’s extremely popular in education and data science. To run notebooks on your own computer, follow the step-by-step [Local setup: Python + venv + Jupyter](#local-setup) section below. Jupyter opens a browser interface where you can create notebooks. In a notebook, you write code in cells and execute them to see output below the cell. Notebooks are great for step-by-step exploration and keeping notes alongside code. If you installed Anaconda, Jupyter is already included (you can launch it from the Anaconda Navigator or the Start menu on Windows). If you prefer not to install anything, remember you can use **Google Colab**, which is essentially a hosted Jupyter Notebook provided by Google, accessible at [colab.research.google.com](https://colab.research.google.com).
 
 **When to use notebooks vs scripts:** For learning and experimentation, notebooks are fantastic because you can run pieces of code in isolation and see results (graphs, data tables, etc.) immediately. Our guide will next have you use a Jupyter Notebook to practice Python concepts. On the other hand, if you’re writing a program that will be used as an application or needs to be packaged, you’d typically organize it into script files or modules. It’s common to use notebooks for exploration and then move code into `.py` files for deployment or larger projects.
+
+(local-setup)=
+## Local setup: Python + venv + Jupyter
+
+This is the recommended way to run the course notebooks on your own computer. You will create one **project folder** for the course, give it its own **virtual environment** (a private set of Python packages that won’t interfere with anything else on your computer), install the course packages, and launch **Jupyter Notebook**. You only do the full setup once; after that, getting back to work takes three short commands.
+
+These steps work for any of the installation methods above (Homebrew, the official installer, Microsoft Store, or winget). If you installed **Anaconda**, skip to the [Anaconda users](#local-setup-anaconda) note at the end of this section.
+
+:::{tip} Terminal vs PowerShell
+On **macOS**, run the commands below in **Terminal** (Applications > Utilities > Terminal). On **Windows**, run them in **PowerShell** (search for “PowerShell” in the Start menu). Where the commands differ, both versions are shown. Type or paste one command at a time and press Enter.
+:::
+
+### Step 1: Check that Python works
+
+macOS:
+```bash
+python3 --version
+```
+
+Windows:
+```powershell
+python --version
+```
+
+You should see something like `Python 3.11.9`. If you get “command not found” or “not recognized”, see [Troubleshooting](#local-setup-troubleshooting) below.
+
+:::{note}
+The course’s cloud environment (GitHub Codespaces) uses **Python 3.11**. Newer versions usually work too, but if a course package fails to install, installing Python 3.11 is the most reliable fix.
+:::
+
+### Step 2: Create a project folder for the course
+
+Keep all your course notebooks, data, and the [`requirements.txt`](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard/blob/main/requirements.txt) file (the list of packages the course uses) together in one folder. Download `requirements.txt` from the course repository and save it into this folder.
+
+macOS:
+```bash
+mkdir -p ~/Documents/LS100
+cd ~/Documents/LS100
+```
+
+Windows:
+```powershell
+mkdir $HOME\Documents\LS100
+cd $HOME\Documents\LS100
+```
+
+The `cd` (“change directory”) command moves your terminal into the folder. Every command from here on runs **inside this folder**.
+
+### Step 3: Create a virtual environment
+
+macOS:
+```bash
+python3 -m venv .venv
+```
+
+Windows:
+```powershell
+python -m venv .venv
+```
+
+This creates a folder called `.venv` inside your project folder. It holds a private copy of Python and every package you install for this course.
+
+**Reading the command piece by piece.** Nothing here is magic. Each part of the command has a plain meaning:
+
+- `python3` (or `python` on Windows) starts Python.
+- `-m venv` tells Python to run its built-in module called `venv`, which creates virtual environments. It comes with Python, so there’s nothing extra to install.
+- `.venv` is the **name of the folder** to create. It’s just a name you choose, like naming any other folder.
+
+**Why is it called `.venv`?** You could call it anything (see below), but `.venv` is the name most Python users choose, for three reasons:
+
+- **The leading dot hides it.** On macOS and Linux, any file or folder whose name starts with `.` is hidden by convention. Finder and the `ls` command don’t show it unless you ask. The environment is machinery for running your code, not your work, so hiding it keeps your project folder tidy: you see your notebooks and data, not thousands of package files. To see hidden items, press **Cmd + Shift + .** in Finder or run `ls -a` in Terminal. On Windows, the dot doesn’t hide anything (Windows hides files with a separate setting), so you’ll see `.venv` in File Explorer. That’s fine.
+- **`venv` says what it is.** Anyone opening your folder, including you months from now, can tell at a glance that it’s a virtual environment made with `venv`, not something you wrote.
+- **Tools look for it.** Because `.venv` is so common, many tools expect it. VS Code, for example, automatically finds a `.venv` folder in your project and offers it as a kernel, and the standard Python `.gitignore` templates already exclude it so it doesn’t get uploaded to GitHub. Using the common name means less configuring later.
+
+**Using a different name.** Any folder name works. For example, to call your environment `ls100-env`:
+
+macOS:
+```bash
+python3 -m venv ls100-env
+```
+
+Windows:
+```powershell
+python -m venv ls100-env
+```
+
+If you choose your own name, replace `.venv` with it in every later command in this section (activation, the “Coming back later” table, and troubleshooting). For example, you’d activate with `source ls100-env/bin/activate` on macOS or `ls100-env\Scripts\Activate.ps1` on Windows, and your prompt would then start with `(ls100-env)`. Avoid spaces in the name, because they make commands awkward to type. And without a leading dot, the folder will be visible in Finder like any other folder.
+
+**What’s inside the folder?** If you open it, you’ll find ordinary files and folders:
+
+- `bin/` (macOS) or `Scripts\` (Windows): the environment’s own `python` and `pip`, plus the `activate` script used in the next step.
+- `lib/` (macOS) or `Lib\` (Windows): contains a folder called `site-packages`, where every package you install with `pip` is stored.
+- `pyvenv.cfg`: a small text file recording which Python the environment was created from. You can open it in any text editor.
+
+Because it’s just a folder, deleting it removes the environment completely, and you can always recreate it with the steps above.
+
+(local-setup-activate)=
+### Step 4: Activate the virtual environment
+
+macOS:
+```bash
+source .venv/bin/activate
+```
+
+Windows:
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Your prompt now starts with `(.venv)`, which tells you the environment is active. From this point on, the command is simply `python` on both macOS and Windows.
+
+**Reading the command piece by piece.**
+
+- On macOS, `.venv/bin/activate` is the path to a small script inside your environment folder (the `activate` file in `bin/` from Step 3). `source` runs that script **inside your current terminal window**, so the changes it makes stay in effect after it finishes. Without `source`, the script would run separately, and its changes would disappear the moment it ended.
+- On Windows, `.venv\Scripts\Activate.ps1` is the path to the PowerShell version of the same script (`.ps1` means “PowerShell script”). PowerShell runs it inside your current window automatically, so no extra word is needed.
+
+**What activation actually does.** When you type a command like `python`, your terminal doesn’t magically know where that program lives. It checks a list of folders, one by one and in order, and runs the first program it finds with that name. This list is called the **PATH**. Activation changes three things in your current terminal window:
+
+1. **It puts the environment’s folder at the front of the PATH.** That’s `.venv/bin` on macOS or `.venv\Scripts` on Windows. That folder contains the environment’s own `python` and `pip`, so typing `python` now finds that copy first. This is also why `python` works on both macOS and Windows once the environment is active, and why commands you install later (like `jupyter`) are found only while it is active.
+2. **It records where the environment is** in a setting called `VIRTUAL_ENV`, which some tools read to find the active environment.
+3. **It adds `(.venv)` to your prompt** as a reminder.
+
+That’s all. Activation doesn’t install anything, and it doesn’t change your main Python installation or any other terminal window. It lasts only as long as this terminal window is open, which is why the “Coming back later” steps include activating again.
+
+**See it for yourself.** Ask the terminal which `python` it will run:
+
+macOS:
+```bash
+which python
+```
+
+Windows:
+```powershell
+Get-Command python
+```
+
+You should see a path that ends inside your project folder, such as `.../Documents/LS100/.venv/bin/python` on macOS or `...\Documents\LS100\.venv\Scripts\python.exe` on Windows. You can also ask Python itself where it’s running from:
+
+```bash
+python -c "import sys; print(sys.prefix)"
+```
+
+This prints the path of your `.venv` folder. Try the same commands in a new terminal window without activating, and you’ll see your main Python installation instead.
+
+**Turning it off.** Type `deactivate` to undo the three changes above and return the terminal to normal, or simply close the window.
+
+:::{note} Activation is a convenience, not a requirement
+You could skip activation and type the full path to the environment’s Python every time, for example `.venv/bin/python -m pip install pandas` on macOS or `.venv\Scripts\python -m pip install pandas` on Windows. Activating just saves you from typing that path every time.
+:::
+
+### Step 5: Install the course packages
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+This installs Jupyter along with everything the course notebooks use (pandas, matplotlib, OpenCV, MediaPipe, PyTorch, and more). It is a large download (a few GB, mostly PyTorch), so expect it to take several minutes.
+
+:::{tip} Only working on Module 00B right now?
+You can start with a much smaller install and add the rest later:
+```bash
+python -m pip install notebook ipykernel pandas numpy matplotlib seaborn
+```
+:::
+
+### Step 6: Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+A browser tab opens at `http://localhost:8888` showing the files in your project folder. Click any `.ipynb` file to open it, or choose **New > Notebook** to create one. Keep the terminal window open while you work: it is running the Jupyter server. When you’re done, save your notebooks, close the browser tab, and press **Ctrl + C** in the terminal to stop Jupyter.
+
+### Coming back later
+
+You don’t repeat the setup. Each time you want to work, open a new terminal and run:
+
+| | macOS | Windows |
+| --- | --- | --- |
+| 1. Go to your folder | `cd ~/Documents/LS100` | `cd $HOME\Documents\LS100` |
+| 2. Activate the environment | `source .venv/bin/activate` | `.venv\Scripts\Activate.ps1` |
+| 3. Start Jupyter | `jupyter notebook` | `jupyter notebook` |
+
+### Optional: Run notebooks in VS Code
+
+If you prefer [VS Code](https://code.visualstudio.com/) to the browser, you can open the same notebooks there:
+
+1. Install the **Python** and **Jupyter** extensions (Extensions panel, left sidebar).
+2. Choose **File > Open Folder…** and open your `LS100` folder.
+3. Open any `.ipynb` file, click **Select Kernel** (top right), and pick the environment that lists `.venv`.
+
+VS Code then runs your notebook cells using the course environment, so you don’t need to start `jupyter notebook` yourself.
+
+(local-setup-anaconda)=
+### Anaconda users
+
+Anaconda already includes Jupyter. You can launch it from **Anaconda Navigator**, but for this course it’s still best to create a separate environment for the course packages. Open **Terminal** (macOS) or **Anaconda Prompt** (Windows), go to your project folder, and run:
+
+```bash
+conda create -n ls100 python=3.11
+conda activate ls100
+python -m pip install -r requirements.txt
+jupyter notebook
+```
+
+Next time, you only need `conda activate ls100` followed by `jupyter notebook`.
+
+(local-setup-troubleshooting)=
+### Troubleshooting
+
+- **`python3: command not found` (macOS) or `python is not recognized` (Windows):** Python isn’t installed or isn’t on your PATH. On Windows, try `py --version` instead, and if that works, use `py` wherever this guide says `python` until the environment is activated. Otherwise, re-run the installer and tick **“Add Python to PATH”**.
+- **Windows: “running scripts is disabled on this system” when activating:** PowerShell blocks activation scripts by default. Either run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`, answer `Y`, and try again, or use **Command Prompt** instead of PowerShell and activate with `.venv\Scripts\activate.bat`.
+- **`jupyter: command not found`:** The environment isn’t active. Your prompt should start with `(.venv)`, so go back to [Step 4](#local-setup-activate). As a fallback, `python -m notebook` launches Jupyter too.
+- **A notebook says `ModuleNotFoundError` for a package you installed:** The notebook is running a different Python from your environment. Stop Jupyter, activate the environment, and start `jupyter notebook` again from inside your project folder. In VS Code, re-select the `.venv` kernel.
+- **A package fails to install (often `mediapipe` or `torch`):** Your Python version is probably too new for that package. Install Python 3.11, delete the `.venv` folder, and repeat Steps 3–5.
+- **Starting over:** Deleting the `.venv` folder is always safe. It only removes the installed packages, not your notebooks or data. Then repeat Steps 3–5.
 
 Now that your environment is set up and you know how to run Python, let’s start our first exploration with Python.
 
 ## Hands-On Practice: Using a Jupyter Notebook to Explore Python
 
-At this point, you have Python set up and know the basic concepts. Now, it is time to play with code in a **Jupyter Notebook**. Please visit the [module 00B on the course website](https://souvikmandal.info/teaching-learning/ls100/module-00b-python-fundamentals/) and start practicing Python with the notebooks in numeric order. You can either use an online notebook environments like [Google Colab](https://colab.research.google.com/) or run the notebook locally.
+At this point, you have Python set up and know the basic concepts. Now, it is time to play with code in a **Jupyter Notebook**. Please visit the [module 00B on the course website](https://souvikmandal.info/teaching-learning/ls100/module-00b-python-fundamentals/) and start practicing Python with the notebooks in numeric order. You can either use an online notebook environments like [Google Colab](https://colab.research.google.com/) or run the notebook locally using the [Local setup](#local-setup) steps above.
 
 
 ## Conclusion: From Basics to Building Full Pipelines

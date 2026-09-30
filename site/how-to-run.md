@@ -7,21 +7,21 @@ description: Three ways to run every LS100 notebook — locally, in Google Colab
 Every notebook in this course can be run three ways. Each notebook page has buttons for all
 three in its download panel. Pick whichever fits your situation.
 
-All the required packages for this course are listed in the [`requirements.txt`](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard/blob/e6db52f269ed08ee6f22c366529b2343d9001bbb/requirements.txt) file. Please download it and keep it in the root directory of your project.
+All the required packages for this course are listed in the [`requirements.txt`](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard/blob/main/requirements.txt) file. Please download it and keep it in the root directory of your project.
 
 ## 💻 Download and run locally
 
 Best if you want to work offline on your own machine and keep your files locally.
 
-1. Install Python — see [Computation Guide 01 · Getting Started with Python](../LS100_00B_Python-Fundamentals/Module-00B_Python-Fundamentals.md).
-2. Install the course dependencies:
+1. Install Python. See [Computation Guide 01 · Getting Started with Python](../LS100_00B_Python-Fundamentals/LS100_module-00B_content-01_Guide-01_Getting-Started-with-Python_LastUpdated-20260601.md) for macOS and Windows instructions.
+2. Follow [Local setup: Python + venv + Jupyter](#local-setup) to create a virtual environment, install the course packages, and launch Jupyter. The short version (macOS; the guide also covers Windows and Anaconda):
    ```bash
-   pip install -r requirements.txt
-   ```
-3. Launch Jupyter and open the downloaded `.ipynb`:
-   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate
+   python -m pip install -r requirements.txt
    jupyter notebook
    ```
+3. Open the downloaded `.ipynb` from the Jupyter file browser.
 
 ## ☁️ Open in Google Colab
 
