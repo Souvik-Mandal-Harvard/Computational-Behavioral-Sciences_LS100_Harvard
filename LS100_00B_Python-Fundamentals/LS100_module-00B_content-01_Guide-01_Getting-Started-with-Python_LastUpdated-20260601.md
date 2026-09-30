@@ -157,7 +157,6 @@ With Python installed (or an online environment ready), you can now start **runn
 
 **When to use notebooks vs scripts:** For learning and experimentation, notebooks are fantastic because you can run pieces of code in isolation and see results (graphs, data tables, etc.) immediately. Our guide will next have you use a Jupyter Notebook to practice Python concepts. On the other hand, if you’re writing a program that will be used as an application or needs to be packaged, you’d typically organize it into script files or modules. It’s common to use notebooks for exploration and then move code into `.py` files for deployment or larger projects.
 
-(local-setup)=
 ## Local setup: Python + venv + Jupyter
 
 This is the recommended way to run the course notebooks on your own computer. You will create one **project folder** for the course, give it its own **virtual environment** (a private set of Python packages that won’t interfere with anything else on your computer), install the course packages, and launch **Jupyter Notebook**. You only do the full setup once; after that, getting back to work takes three short commands.
