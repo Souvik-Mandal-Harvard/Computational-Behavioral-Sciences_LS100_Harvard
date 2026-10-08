@@ -1,0 +1,11 @@
+# Files the automatic check expects to find (instructor-edited, optional).
+#
+# One file per line, optionally followed by a colon and the CSV columns it
+# must contain. Lines starting with # are ignored. Leave the file with only
+# comments if the assignment has no required output files.
+#
+# Example for a pose-estimation assignment, where the keypoints CSV is made
+# in Colab and uploaded by the student:
+#
+# data/processed/keypoints.csv: frame, keypoint, x, y, confidence
+# figures/joint_angles.png

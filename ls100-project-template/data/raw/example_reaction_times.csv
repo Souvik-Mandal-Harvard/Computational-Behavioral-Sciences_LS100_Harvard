@@ -1,0 +1,17 @@
+participant,condition,trial,reaction_time_ms
+P01,control,1,412
+P01,control,2,398
+P01,distractor,1,471
+P01,distractor,2,455
+P02,control,1,389
+P02,control,2,402
+P02,distractor,1,447
+P02,distractor,2,460
+P03,control,1,430
+P03,control,2,418
+P03,distractor,1,498
+P03,distractor,2,482
+P04,control,1,376
+P04,control,2,381
+P04,distractor,1,429
+P04,distractor,2,441

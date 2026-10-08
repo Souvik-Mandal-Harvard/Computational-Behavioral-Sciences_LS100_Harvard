@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# LS100 assignment template — files Git should NOT save
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Video files ──────────────────────────────────────────────────────────────
+# Videos are too large for GitHub (100 MB limit per file) and make the
+# repository slow for everyone. Keep raw videos in Google Drive and write
+# where they live in data/raw/README.md. Commit the small CSV outputs instead.
+*.mp4
+*.MP4
+*.avi
+*.AVI
+*.mov
+*.MOV
+*.mkv
+*.wmv
+*.m4v
+*.webm
+
+# ── Large model files ────────────────────────────────────────────────────────
+# Model weights (e.g. YOLO .pt files) are downloaded or trained in Colab.
+# Note in data/raw/README.md where your trained model is stored.
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+runs/
+
+# ── Large audio files ────────────────────────────────────────────────────────
+# Short .wav clips are fine; remove these lines if your assignment needs them.
+*.flac
+*.aiff
+
+# ── Python and Jupyter clutter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# ── Operating-system clutter ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,9 @@
+participant,condition,reaction_time_ms
+P01,control,405.0
+P01,distractor,463.0
+P02,control,395.5
+P02,distractor,453.5
+P03,control,424.0
+P03,distractor,490.0
+P04,control,378.5
+P04,distractor,435.0

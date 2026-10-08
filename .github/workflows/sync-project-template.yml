@@ -1,0 +1,81 @@
+# Mirror ls100-project-template/ into its own GitHub template repository.
+#
+# GitHub can't make a repository from a sub-folder, so students can't
+# "Use this template" on a folder inside this course repo. This workflow copies
+# the folder's contents into a standalone repo (marked as a template), so the
+# folder here stays the single source of truth.
+#
+# One-time setup (see instructor-notes/project-template-setup.md):
+#   1. Create the public repo  Souvik-Mandal-Harvard/ls100-project-template
+#      and tick Settings → General → "Template repository".
+#   2. Generate a deploy key; add the public half to that repo
+#      (Settings → Deploy keys, "Allow write access") and the private half to
+#      THIS repo as the secret TEMPLATE_REPO_DEPLOY_KEY.
+# Until the secret exists, this workflow skips with a notice instead of failing.
+
+name: Sync project template
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ls100-project-template/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ls100-template-sync
+  cancel-in-progress: false
+
+env:
+  TEMPLATE_REPO: Souvik-Mandal-Harvard/ls100-project-template
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for deploy key
+        id: key
+        env:
+          KEY: ${{ secrets.TEMPLATE_REPO_DEPLOY_KEY }}
+        run: |
+          if [ -z "$KEY" ]; then
+            echo "::notice::TEMPLATE_REPO_DEPLOY_KEY is not set; skipping template sync."
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check out course repo
+        if: steps.key.outputs.present == 'true'
+        uses: actions/checkout@v4
+        with:
+          path: course
+
+      - name: Check out template repo
+        if: steps.key.outputs.present == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.TEMPLATE_REPO }}
+          ssh-key: ${{ secrets.TEMPLATE_REPO_DEPLOY_KEY }}
+          path: template
+
+      - name: Copy folder contents (mirror, including hidden files)
+        if: steps.key.outputs.present == 'true'
+        run: |
+          rsync -a --delete --exclude '.git/' course/ls100-project-template/ template/
+
+      - name: Commit and push if anything changed
+        if: steps.key.outputs.present == 'true'
+        working-directory: template
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Template already up to date."
+            exit 0
+          fi
+          git commit -m "Sync from course repo ${GITHUB_SHA::7}"
+          git push

@@ -18,6 +18,8 @@ project:
   # Files that are built but not part of the student-facing navigation
   exclude:
     - README.md
+    - ls100-project-template/**
+    - instructor-notes/**
   toc:
     - file: site/index.md
     - file: site/start-here.md

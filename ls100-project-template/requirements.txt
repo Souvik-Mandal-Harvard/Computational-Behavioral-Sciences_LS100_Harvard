@@ -1,0 +1,30 @@
+# LS100 — packages for this assignment.
+# Students: you do not need to edit this file.
+# Instructor: trim to what the assignment needs — smaller lists make
+# Codespaces start faster and the automatic check finish sooner.
+
+# Notebook environment
+jupyter
+ipykernel
+
+# Core data stack
+pandas
+numpy
+scipy
+statsmodels
+
+# Visualization
+matplotlib
+seaborn
+
+# Uncomment the groups this assignment needs:
+
+# Computer vision
+# opencv-python-headless
+# mediapipe
+
+# Audio
+# librosa
+
+# Machine learning
+# scikit-learn

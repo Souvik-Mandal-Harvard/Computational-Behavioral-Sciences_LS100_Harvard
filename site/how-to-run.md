@@ -40,3 +40,12 @@ all dependencies automatically, so the environment is ready to run.
 The GPU-based notebooks (YOLOv8 batch/single-video pose estimation) are designed for Colab's
 free GPU. The CPU notebooks run fine locally or in Codespaces.
 :::
+
+:::{tip} Your project repository
+Projects are submitted through GitHub, not by email. Each student creates their own repository
+from the [LS100 project template](https://github.com/Souvik-Mandal-Harvard/ls100-project-template),
+which they keep after the course as a portfolio piece. The step-by-step guides travel with it:
+[Start your project and submit it with GitHub](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard/blob/main/ls100-project-template/ls100-guides/01_submitting-assignments-with-github.md),
+[Running GPU steps in Colab](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard/blob/main/ls100-project-template/ls100-guides/02_gpu-steps-with-colab.md), and
+[Make your project portfolio-ready](https://github.com/Souvik-Mandal-Harvard/Computational-Behavioral-Sciences_LS100_Harvard/blob/main/ls100-project-template/ls100-guides/03_make-it-portfolio-ready.md).
+:::
