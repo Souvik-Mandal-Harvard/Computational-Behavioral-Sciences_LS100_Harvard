@@ -5,7 +5,7 @@ short_title: 'Guide 01: Computer Vision'
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_module-01A_Video-Data_content-00_Guide-01_Introduction-to-Computer-Vision-in-Behavioral-Sciences_LastUpdated-20260726.pdf
+    output: exports/LS100_module-01A_stage-01_02_Guide-Introduction-to-Computer-Vision-in-Behavioral-Sciences.pdf
     id: cv-pdf
 downloads:
   - id: cv-pdf

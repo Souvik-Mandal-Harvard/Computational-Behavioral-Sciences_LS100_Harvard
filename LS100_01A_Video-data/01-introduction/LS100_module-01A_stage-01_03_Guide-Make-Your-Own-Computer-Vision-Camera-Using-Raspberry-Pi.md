@@ -5,7 +5,7 @@ short_title: 'Guide 02: Make a video camera'
 exports:
   - format: pdf
     template: lapreprint-typst
-    output: exports/LS100_module-01A_Video-Data_content-00_Guide-02_Make-Your-Own-Computer-Vision-Camera-Using-Raspberry-Pi_LastUpdated-20260726.pdf
+    output: exports/LS100_module-01A_stage-01_03_Guide-Make-Your-Own-Computer-Vision-Camera-Using-Raspberry-Pi.pdf
     id: pi-camera-pdf
 downloads:
   - id: pi-camera-pdf

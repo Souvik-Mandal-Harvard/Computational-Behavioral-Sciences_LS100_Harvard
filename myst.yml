@@ -42,9 +42,9 @@ project:
           children:
             - title: Introduction
               children:
-                - file: LS100_01A_Video-data/01-introduction/LS100_module-01A_Video-Data_content-00_Guide-00_Introduction-to-Digital-Video-Python_LastUpdated-20260726.md
-                - file: LS100_01A_Video-data/01-introduction/LS100_module-01A_Video-Data_content-00_Guide-01_Introduction-to-Computer-Vision-in-Behavioral-Sciences_LastUpdated-20260726.md
-                - file: LS100_01A_Video-data/01-introduction/LS100_module-01A_Video-Data_content-00_Guide-02_Make-Your-Own-Computer-Vision-Camera-Using-Raspberry-Pi_LastUpdated-20260726.md
+                - file: LS100_01A_Video-data/01-introduction/LS100_module-01A_stage-01_01_Guide-Introduction-to-Digital-Video-Python.md
+                - file: LS100_01A_Video-data/01-introduction/LS100_module-01A_stage-01_02_Guide-Introduction-to-Computer-Vision-in-Behavioral-Sciences.md
+                - file: LS100_01A_Video-data/01-introduction/LS100_module-01A_stage-01_03_Guide-Make-Your-Own-Computer-Vision-Camera-Using-Raspberry-Pi.md
                 - pattern: 'LS100_01A_Video-data/01-introduction/*.ipynb'
             - title: Video pre-processing
               children:
