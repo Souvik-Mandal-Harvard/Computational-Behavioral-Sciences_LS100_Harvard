@@ -54,6 +54,12 @@ Computational-Behavioral-Sciences_LS100_Harvard/
 ├── LS100_00A_Research-Plans-And-Proposals/          # Framing research questions and proposals
 ├── LS100_00B_Python-Fundamentals/                   # Reading guides + Notebooks 01–05
 ├── LS100_01A_Video-data/                            # Video → pose → kinematics → behavior classification
+│   ├── 01-introduction/                             #   Guides + Getting-Started notebook
+│   ├── 02-video-preprocessing/                      #   Frame reduction, chunking, clipping, trimming
+│   ├── 03-pose-estimation-human/                    #   MediaPipe / YOLO body keypoints
+│   ├── 04-tracking-custom-object/                   #   Custom object tracking (YOLO, blob, SAM2)
+│   ├── 05-data-wrangling/                           #   Keypoints → joint angles → indices
+│   └── 06-applied-ml/                               #   Sequence-based behavior classification
 ├── LS100_01B_Audio-Data/                            # Digital audio → features → clustering
 ├── LS100_02_Data-Science_Stats/                     # Statistics notebooks + test-selection guide & poster
 ├── LS100_03_Communication-and-Presentation/         # Communicating and presenting science
